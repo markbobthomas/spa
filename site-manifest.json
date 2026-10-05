@@ -1,0 +1,21 @@
+{
+  "index.html": "16d84c29987f9233996cac8d42c6ed860f8cd6264281ccad983a3ffadc70b722",
+  "engine.js": "3b71a80210a84bcfa6279d1d5f2037763a341af0ac46cdd36fba74c97600f905",
+  "model-library.js": "42746cf20ba2dfbad75d832641dfa4808f95242cd2b1549616d7857d25111961",
+  "architecture.js": "89fb58631247fe6d5a694bdefa3d815a7a2c528c635e490f6c8f70a6b9e141d7",
+  "asset-data.js": "877d97760ebf5537bec0b7870d7ede272e832bdd99b5eb1750b2d29bf6d62ed4",
+  "vendor/three.min.js": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
+  "vendor/babylon.js": "549832bf871ab7b484c28fc83f49a594b27fa4a383b6b815c4d5368c10586c6b",
+  "vendor/babylon.glTFFileLoader.min.js": "d5f5a6f9ace989d8aebcee983af7260da636687e14923178f9bcbca8c71489fb",
+  "vendor/THREE-LICENSE.txt": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+  "vendor/Apache-2.0.txt": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff",
+  "assets/SOURCES.md": "835a9e112f5be0ae14714ed2621f1888b347c073aea37e370f0bfc0ac8893708",
+  "assets/CC-BY-4.0.txt": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744",
+  "assets/CC0-1.0.txt": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "Stillwater.html": "c862ccebedfaa9368bfb064063a073cb25246adf5967f894af6fef86f6b7518a",
+  "Stillwater.zip": "b04a6f48aa7bb89a5e318710688657a4cbed9398ec20974a8bf116ea90822b00",
+  "examples/island-retreat.json": "926a1976b0fb6f98417978602f3c614a634ba97ecdb370f3d1db8e94c24e7dd5",
+  "preview.png": "bd092ad131b13b6d0c10716237f1d867a717a81c727cafdbd7540d09186fefa5",
+  "preview-cutaway.png": "2c76a2a2b8609737bf12c2e2b056d5ca7741b014ccca256b182367d6910a0cdf",
+  "preview-detail.png": "1d1b76d1ad823e3fa49b3cb493c8aa3d5fe0d5ca0e11231d015ffd0fc8e3f384"
+}
