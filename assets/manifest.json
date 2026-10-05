@@ -1,0 +1,30 @@
+{
+  "velvet-chair.glb": {
+    "sha256": "f0af2a2b102d28d540236306ae19f8fb36842df76bd38cf76f063f9bd2853399",
+    "size": 4125648
+  },
+  "leather-sofa.glb": {
+    "sha256": "5349e042ad41e695e89f1110230c4ee0c75b2bc62ef830c7016be6ecf665bfb6",
+    "size": 10107912
+  },
+  "grass-trees.glb": {
+    "sha256": "c045692df01fc1ff6be1f87837b8ea25f9ad7b10522783ae6254dd1eaa679cf4",
+    "size": 53952
+  },
+  "grass-trees-tall.glb": {
+    "sha256": "5d057fbc3491fce8462a1b13175358eec747b42d2cef26acbd2c17ebb4ad1610",
+    "size": 63360
+  },
+  "olive-tree.glb": {
+    "sha256": "273ace048ef17551f03569911dba25aeafda8c5c7c298369a05d41d84f99ce25",
+    "size": 222548
+  },
+  "indoor-palm.glb": {
+    "sha256": "7b1cda23a9cf76d0c98a503a1bd433ff28864eea44ebfbe45a3dab8db05224af",
+    "size": 315880
+  },
+  "garden-light.hdr": {
+    "sha256": "7afe4c2f9700ee78c7477c53fa355463d7dda1fdede401432d6b5f9ff0a95696",
+    "size": 1540678
+  }
+}

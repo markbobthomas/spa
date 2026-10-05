@@ -1,0 +1,10 @@
+{
+  "name": "babylonjs",
+  "version": "9.29.0",
+  "license": "Apache-2.0",
+  "dist": {
+    "tarball": "https://registry.npmjs.org/babylonjs/-/babylonjs-9.29.0.tgz",
+    "integrity": "sha512-cG5385LjwuZTTWBONwxNjkGlvZzxEDREu3lxX3UeNX0LwN7azLoW+qghf009nCq4gpE0USK0R21iidXxe2MBJQ=="
+  },
+  "verified": true
+}

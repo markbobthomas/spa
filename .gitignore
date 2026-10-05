@@ -1,0 +1,7 @@
+/_site/
+/Stillwater.html
+/assets/kenney-city.zip
+/vendor/babylon.d.ts
+/vendor/babylonjs.loaders.min.js
+__pycache__/
+*.pyc
