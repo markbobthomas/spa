@@ -1,0 +1,27 @@
+[
+  {
+    "name": "KayKit-Furniture-Bits-1.0",
+    "source": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/zip/refs/heads/main",
+    "sha256": "973ba87b154d7e734531253314df07e8b1bf2d76cda2a79dc63ee9bc07af9a02"
+  },
+  {
+    "name": "KayKit-Restaurant-Bits-1.0",
+    "source": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0/zip/refs/heads/main",
+    "sha256": "83abc343a8bc5f275e5bec99e544a8fa2b66e9e49ee24af4fa446042fc321c07"
+  },
+  {
+    "name": "KayKit-City-Builder-Bits-1.0",
+    "source": "https://codeload.github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0/zip/refs/heads/main",
+    "sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b"
+  },
+  {
+    "name": "KayKit-Character-Pack-Adventures-1.0",
+    "source": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/zip/refs/heads/main",
+    "sha256": "e19176d799036452bc783c00dd1036e158c66c5a43b7285ccbfea3466d6f57bf"
+  },
+  {
+    "name": "KayKit-Medieval-Hexagon-Pack-1.0",
+    "source": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Medieval-Hexagon-Pack-1.0/zip/refs/heads/main",
+    "sha256": "abe5b0c00456ab66a82883a6b16e860c419d822db5597596efccb09e57820c42"
+  }
+]

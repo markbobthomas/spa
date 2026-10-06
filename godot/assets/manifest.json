@@ -1,0 +1,3302 @@
+[
+  {
+    "file": "SOURCES.md",
+    "sha256": "cea71e5c3eec4e3fbdf34bee966d7cf52f7388c7d6ea2f03482fcfbf9e40c56b",
+    "bytes": 2709
+  },
+  {
+    "file": "catalog.json",
+    "sha256": "56919343347875a648a8f863e436badc31102a0535466239a69df32e4b409dcd",
+    "bytes": 12197
+  },
+  {
+    "file": "kaykit/characters/LICENSE.txt",
+    "sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629",
+    "bytes": 891
+  },
+  {
+    "file": "kaykit/characters/gltf/arrow.bin",
+    "sha256": "4b12b8c3d0d6a13d50e2f56a07be898d9663052b61ab878659f28875464381f5",
+    "bytes": 2648
+  },
+  {
+    "file": "kaykit/characters/gltf/arrow.gltf",
+    "sha256": "316d885d2377b8d389edab91df4fc2797264beff317adfd66bc88357d68f6b8c",
+    "bytes": 3058
+  },
+  {
+    "file": "kaykit/characters/gltf/arrow_bundle.bin",
+    "sha256": "fd17c7411497a551174926b247f02eed19d3c510c3a914e380b4bf12af45de95",
+    "bytes": 15344
+  },
+  {
+    "file": "kaykit/characters/gltf/arrow_bundle.gltf",
+    "sha256": "fb103acce8e347972f019fd3d0711ff4b96827995092dcdd4d67971d5be96703",
+    "bytes": 3078
+  },
+  {
+    "file": "kaykit/characters/gltf/axe_1handed.bin",
+    "sha256": "0e3e5f009e0706506971fe5b1eae0fa30b0b28c70fd67c4b7943d975a821f4af",
+    "bytes": 12524
+  },
+  {
+    "file": "kaykit/characters/gltf/axe_1handed.gltf",
+    "sha256": "dbe0ba59abcae66a464809ee281179b10f85e41ef0d69786d39627472ca7e5dd",
+    "bytes": 3087
+  },
+  {
+    "file": "kaykit/characters/gltf/axe_2handed.bin",
+    "sha256": "e5ca2d08f8baa12b510fb27c6a01bb711f102107c8f672443d1d1945f1fb40c0",
+    "bytes": 21960
+  },
+  {
+    "file": "kaykit/characters/gltf/axe_2handed.gltf",
+    "sha256": "9570c2300c57db64a412a377c78f1681a66d7c47d75bb7643e69573e66a3a1d5",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/barbarian_texture.png",
+    "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80",
+    "bytes": 15089
+  },
+  {
+    "file": "kaykit/characters/gltf/crossbow_1handed.bin",
+    "sha256": "0401a7f6a6264d60d17fee260518715161aac96f7b4e8e541fd562b1815f9a2a",
+    "bytes": 25200
+  },
+  {
+    "file": "kaykit/characters/gltf/crossbow_1handed.gltf",
+    "sha256": "04fb009d03becf748614610ab21c52cf3a68f4cb21fc0b9544309c498f404136",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/crossbow_2handed.bin",
+    "sha256": "1fcadb445d622190bac4bf9b0e6df2b961ed43309b3cfbf8996259175971a537",
+    "bytes": 34896
+  },
+  {
+    "file": "kaykit/characters/gltf/crossbow_2handed.gltf",
+    "sha256": "c38dcbc7beefb76805aaf99098c681b346a021bb44988daf0c5ce787018673ed",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/dagger.bin",
+    "sha256": "2ef02dbdc53839cd2506f9dea40dcc401cdda830ae6a887f499333cce0d11be3",
+    "bytes": 7656
+  },
+  {
+    "file": "kaykit/characters/gltf/dagger.gltf",
+    "sha256": "33c577d4d5d268295f13494c930d20d11bf1a82e862aa7bdab4d7d51bc26fcd0",
+    "bytes": 3065
+  },
+  {
+    "file": "kaykit/characters/gltf/knight_texture.png",
+    "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4",
+    "bytes": 14172
+  },
+  {
+    "file": "kaykit/characters/gltf/mage_texture.png",
+    "sha256": "ea49f094b960402635fe51db9f1864960c97271b17f2e3554e5aca1b2bbba144",
+    "bytes": 16311
+  },
+  {
+    "file": "kaykit/characters/gltf/mug_empty.bin",
+    "sha256": "1c0e4868e64347f1016046c0904544fc23cf495a87a63ab6b014758a2e19a957",
+    "bytes": 14644
+  },
+  {
+    "file": "kaykit/characters/gltf/mug_empty.gltf",
+    "sha256": "34ab9c2097fda8820fb633273dfd97ffacefe69cff24b2f3cc3e25c5341c48dc",
+    "bytes": 3086
+  },
+  {
+    "file": "kaykit/characters/gltf/mug_full.bin",
+    "sha256": "b79442e95a5f2d02aec88fca5ea16574e5a5210daf1bc6e294a39a4c7d1aeecb",
+    "bytes": 15772
+  },
+  {
+    "file": "kaykit/characters/gltf/mug_full.gltf",
+    "sha256": "354aa166f25c2e2f88b309129fb5638f98f852358f638293865c7b8767516fda",
+    "bytes": 3084
+  },
+  {
+    "file": "kaykit/characters/gltf/quiver.bin",
+    "sha256": "47091e8d290ab093560f92b680c0cd83934ea2190e817d51dd4ddb0c7825934e",
+    "bytes": 13884
+  },
+  {
+    "file": "kaykit/characters/gltf/quiver.gltf",
+    "sha256": "9d209d5e66037e713393f648c7ae8815687c23d63779e40b17d7917d7e45e015",
+    "bytes": 3065
+  },
+  {
+    "file": "kaykit/characters/gltf/rogue_texture.png",
+    "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5",
+    "bytes": 16670
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_badge.bin",
+    "sha256": "3c0f04767c839868df1f852cb335848c3ba7d94da3078e4c7f8a422f2369560c",
+    "bytes": 10628
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_badge.gltf",
+    "sha256": "51b687316b2f9bfe89e586a6ef5f91cface8a326c9d604c8acea7699d6f3523d",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_badge_color.bin",
+    "sha256": "54ed559b5b44b1d3fa0af1abb2d97bc72793788148bb9c2af40b5e037904adc1",
+    "bytes": 10500
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_badge_color.gltf",
+    "sha256": "99c18633f856483dc5ad2e37b397991a469544c7f78aeee331db26d0fbe3b084",
+    "bytes": 3092
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round.bin",
+    "sha256": "42da365328fc8804f44cd3db6becc8bc98729f11862b63e51b42820559d6e1e0",
+    "bytes": 12008
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round.gltf",
+    "sha256": "ac502d8b193da7b1224139e3b825f856ec9fa15cd5aa6ca10295cc927402c275",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round_barbarian.bin",
+    "sha256": "4e948103979c35a8b4cfae14bd875b484ae23da2dc2bfe98207ad8b69a640fef",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round_barbarian.gltf",
+    "sha256": "6ce05b06942d93741b2210c035b8c531a0592cb985ed4252b2f9e9935c7c77ce",
+    "bytes": 3112
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round_color.bin",
+    "sha256": "0e689cf61e686a108fb5a08229007e429669ed22b9458aad4c096825755a7c62",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_round_color.gltf",
+    "sha256": "fe705e62a3edaae07928ce90f9b305593f868e9c40bd23e73b550e14438108bd",
+    "bytes": 3095
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_spikes.bin",
+    "sha256": "de615f1d5bd01a6562a91d0f41960e50c4e35712388b38af4e549832b0677e0c",
+    "bytes": 21464
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_spikes.gltf",
+    "sha256": "c2bb6202c2236ff477573ae4770c55c0586d9a554b6df861bc62d7ec0134e31f",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_spikes_color.bin",
+    "sha256": "0ce0dc3e7a3723b0530e46190cd0f13b14ce712d142f9da4979656d6f4390eea",
+    "bytes": 21464
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_spikes_color.gltf",
+    "sha256": "19f5958cb51a73345b6ebde6466cf63f2bad0b1b0b7ebf9ebafe8454fbbbed8d",
+    "bytes": 3095
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_square.bin",
+    "sha256": "10937706e32da2a09c3e9f2399c5daf5fd3b47e22c8b898a06c0d28d7630a6b6",
+    "bytes": 10724
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_square.gltf",
+    "sha256": "d2af4fbe4c0e8b93f3c88594b99ab601d5589920d4b0b8dc629143413e7c66c1",
+    "bytes": 3081
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_square_color.bin",
+    "sha256": "6e3a079dd9c0cd1ed654b0f1ccd9a62938fb80063a70efe48540cdbafc12c31b",
+    "bytes": 10724
+  },
+  {
+    "file": "kaykit/characters/gltf/shield_square_color.gltf",
+    "sha256": "7f1b7343cfe4d669fb94c5776620b3305551fc183eca180ebafe4f6e494c0cae",
+    "bytes": 3093
+  },
+  {
+    "file": "kaykit/characters/gltf/smokebomb.bin",
+    "sha256": "a50b0b4807f6f5f9f21ebf9adda2555fa024c36c8afd1395c3d3d6e9d5566e36",
+    "bytes": 11460
+  },
+  {
+    "file": "kaykit/characters/gltf/smokebomb.gltf",
+    "sha256": "6a71950c30598377555791b6f54db77d9b69c7a0d14f3619ed84f47490bf8ce5",
+    "bytes": 3073
+  },
+  {
+    "file": "kaykit/characters/gltf/spellbook_closed.bin",
+    "sha256": "4cf311c021d81fd418b8eed01dec8f8af743d8f74dd81722f7c5f42f3ba89633",
+    "bytes": 14520
+  },
+  {
+    "file": "kaykit/characters/gltf/spellbook_closed.gltf",
+    "sha256": "25d118c6f1937476eeb480a0e2f072a87f416e15464f63185325b1e3584124d2",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/characters/gltf/spellbook_open.bin",
+    "sha256": "888e45aff64aba1bea6ef3abfad27024b2697f7adbab319c089bc70c077c4a5b",
+    "bytes": 15128
+  },
+  {
+    "file": "kaykit/characters/gltf/spellbook_open.gltf",
+    "sha256": "5a7891f8fe12a0c84dfbb64454b0b6b51328894011021e5c664bc8701aaf40ad",
+    "bytes": 3076
+  },
+  {
+    "file": "kaykit/characters/gltf/staff.bin",
+    "sha256": "acf921e547edd8e05e24e0b2edec74fec7c987ccad1ee73549a0726a8059ebce",
+    "bytes": 18576
+  },
+  {
+    "file": "kaykit/characters/gltf/staff.gltf",
+    "sha256": "eb2e277510325a242974ee842453882de2d55b09ec94a43148aff1dd4237c67a",
+    "bytes": 3061
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_1handed.bin",
+    "sha256": "780ebfd002cd181fd5b1626f5a6ae8dda0ff2df58c3ff1fd6e7584f53a969d8a",
+    "bytes": 13256
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_1handed.gltf",
+    "sha256": "f88345d0c89d52710ddb00555964fe7a6f4024874d7ee902ee4c742c048a1958",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_2handed.bin",
+    "sha256": "0f54186de924388d70b7b5b7b9052c8dda2e20647c4fb36a949723b7ed6b7646",
+    "bytes": 19912
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_2handed.gltf",
+    "sha256": "0f67613f6233d637be60cb27e320dd3b855b73d1ca0249df46999f68efb05494",
+    "bytes": 3081
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_2handed_color.bin",
+    "sha256": "8c6a20309dfa812e4683794a110c7ab359da38c8126d2249d7190899ca1af294",
+    "bytes": 19880
+  },
+  {
+    "file": "kaykit/characters/gltf/sword_2handed_color.gltf",
+    "sha256": "fd45e23a61d09b46bad57925fb5edea4a633fde06bd1444b77659ffc35660955",
+    "bytes": 3093
+  },
+  {
+    "file": "kaykit/characters/gltf/wand.bin",
+    "sha256": "db1c466f40f5ae29468e56dff16af6bfd448518f543a5a4ae2638557084473d9",
+    "bytes": 5956
+  },
+  {
+    "file": "kaykit/characters/gltf/wand.gltf",
+    "sha256": "b726392709e3e7fb4b5157f950500d4a98281503f7cac7d6afdf164578169338",
+    "bytes": 3058
+  },
+  {
+    "file": "kaykit/characters/guest.glb",
+    "sha256": "5aadbe38485c99925e7cee7399f44babd8817ec09a4e65e3c3538862851f7576",
+    "bytes": 3616232
+  },
+  {
+    "file": "kaykit/characters/guest_rogue_texture.png",
+    "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5",
+    "bytes": 16670
+  },
+  {
+    "file": "kaykit/city/LICENSE.txt",
+    "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+    "bytes": 828
+  },
+  {
+    "file": "kaykit/city/gltf/base.bin",
+    "sha256": "2b00ed6bb88a18e91fc80ec037cca4a20fba9fdeb21f8f781fc3a7f8be919f8a",
+    "bytes": 3432
+  },
+  {
+    "file": "kaykit/city/gltf/base.gltf",
+    "sha256": "ac49eb9d300587172c416f73c7fd709403dc34f432f02ab3e3c9590adc63c21c",
+    "bytes": 2953
+  },
+  {
+    "file": "kaykit/city/gltf/bench.bin",
+    "sha256": "53ac9734110353b244bc409b32e1d4a41d94a86f3aa26884c40a6692dab0f81e",
+    "bytes": 2824
+  },
+  {
+    "file": "kaykit/city/gltf/bench.gltf",
+    "sha256": "f3b731470c30ed21d7e03f15d28f1937b3e4881efcca57a48e4c82ae582e51e1",
+    "bytes": 3024
+  },
+  {
+    "file": "kaykit/city/gltf/box_A.bin",
+    "sha256": "7d73d90c735ad860f176cc55607e20ca4939c7c9de059b7db127c980f3b5bcec",
+    "bytes": 2240
+  },
+  {
+    "file": "kaykit/city/gltf/box_A.gltf",
+    "sha256": "fe1fa867aa6aa2933bbe3d232c8dcedffc68d484019f71544ce191e2c8ddc16c",
+    "bytes": 3044
+  },
+  {
+    "file": "kaykit/city/gltf/box_B.bin",
+    "sha256": "07ea7050e806330c8fb7e7d821fc8c7960e4ff2a375f26a4916185c8889faaf8",
+    "bytes": 1336
+  },
+  {
+    "file": "kaykit/city/gltf/box_B.gltf",
+    "sha256": "6ad0554fedbc3ad3079cac62668455912bbe59be3b796de3356f2cc4e726e690",
+    "bytes": 3044
+  },
+  {
+    "file": "kaykit/city/gltf/building_A.bin",
+    "sha256": "29feccd24aa7b996e7a5dbeca2e5c724bfbeaa7eebad02e6fb012a92eebb1a33",
+    "bytes": 49512
+  },
+  {
+    "file": "kaykit/city/gltf/building_A.gltf",
+    "sha256": "d9d21afb847de1c67a643cc34738f0b71d71f6a8926e8fa7f248bb6a434a22ba",
+    "bytes": 2980
+  },
+  {
+    "file": "kaykit/city/gltf/building_A_withoutBase.bin",
+    "sha256": "a0446a10d14c50267c3fa6be98104e8467171b57f288448a5d740e91666d5056",
+    "bytes": 28820
+  },
+  {
+    "file": "kaykit/city/gltf/building_A_withoutBase.gltf",
+    "sha256": "37389d47e4ddec9175c40d41a48e2c1d16a1c44146833ec73fef2710e0b6876e",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/city/gltf/building_B.bin",
+    "sha256": "310c032929c5988dd0ae5d9c15c4ea0d0e69bcbd60d87237cdd56e859639375e",
+    "bytes": 65468
+  },
+  {
+    "file": "kaykit/city/gltf/building_B.gltf",
+    "sha256": "d026df95a16e31d1d50827375db7978099af35eefbb255bf6674855d303fb390",
+    "bytes": 2980
+  },
+  {
+    "file": "kaykit/city/gltf/building_B_withoutBase.bin",
+    "sha256": "1fca25dd4b645058d55b069bbddc41fda2eea543a762237ed054f15bccbee34a",
+    "bytes": 38844
+  },
+  {
+    "file": "kaykit/city/gltf/building_B_withoutBase.gltf",
+    "sha256": "69b1e3d91479c8fe3134e385fef567603cecd2423a032f2a11b9f2deb7046458",
+    "bytes": 3089
+  },
+  {
+    "file": "kaykit/city/gltf/building_C.bin",
+    "sha256": "77c6e813fc59631d7866614508220f47800533cda767f55680d393eddd46705d",
+    "bytes": 61512
+  },
+  {
+    "file": "kaykit/city/gltf/building_C.gltf",
+    "sha256": "d2477afdb8a68507ab862ede37f47a2a7b74df369290bc57712239214c6ae2c8",
+    "bytes": 2979
+  },
+  {
+    "file": "kaykit/city/gltf/building_C_withoutBase.bin",
+    "sha256": "56ab30ffadc34b91a4ec6a8cc26bb644bb1c516b25afa8fa1eac4a3968dead2b",
+    "bytes": 43548
+  },
+  {
+    "file": "kaykit/city/gltf/building_C_withoutBase.gltf",
+    "sha256": "f059362f96617268b7eff7a1f65f853288a79e21316e5793bbc23a0a2e937671",
+    "bytes": 3089
+  },
+  {
+    "file": "kaykit/city/gltf/building_D.bin",
+    "sha256": "b8d7091ba017d99f25a2eb75cc1eb8c10a58945c22f7cf8416f72c13d11a30c1",
+    "bytes": 69812
+  },
+  {
+    "file": "kaykit/city/gltf/building_D.gltf",
+    "sha256": "1484455bd37ce136e1defb1639f68cf82b7b00f977856b1d9483de9c02760ba3",
+    "bytes": 2996
+  },
+  {
+    "file": "kaykit/city/gltf/building_D_withoutBase.bin",
+    "sha256": "6342dbff9ee312838372b094bb65ae1d36c2382e95c1c49470e579e5eeac77d2",
+    "bytes": 55680
+  },
+  {
+    "file": "kaykit/city/gltf/building_D_withoutBase.gltf",
+    "sha256": "40c07bd5026825a8cf95bf202b702fdb4858ae8a4f2236aa41a9db7a4fdd19ca",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/city/gltf/building_E.bin",
+    "sha256": "1280f8b64d68e5602472c08a76489a5b7fe7415795642b1e4fcc15bc003061e7",
+    "bytes": 84840
+  },
+  {
+    "file": "kaykit/city/gltf/building_E.gltf",
+    "sha256": "42905f3038030e27126da1454aaf1e1bff1ad66de34d9c94a9599c709ae5e97d",
+    "bytes": 3014
+  },
+  {
+    "file": "kaykit/city/gltf/building_E_withoutBase.bin",
+    "sha256": "6403701c0185eeb53b60f76b359e99c47634c3240cd3e51f92aeeb472e7d341c",
+    "bytes": 62084
+  },
+  {
+    "file": "kaykit/city/gltf/building_E_withoutBase.gltf",
+    "sha256": "0b2ab5f634eaf0d45ccf5fe585b4a9269f1b8e5b9ab34a412bafca046087e609",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/city/gltf/building_F.bin",
+    "sha256": "fc3c72d718b0339b3158f43ed31ece6ecae0ca9592925362a22425e2bc6eaf43",
+    "bytes": 84272
+  },
+  {
+    "file": "kaykit/city/gltf/building_F.gltf",
+    "sha256": "cebfc6df11af7caf712a3f3e0d2c033554355ff7bf7a8b332eb21ebdaaba2aa1",
+    "bytes": 3014
+  },
+  {
+    "file": "kaykit/city/gltf/building_F_withoutBase.bin",
+    "sha256": "1bed0be4aae8523a76c669c2a85794e16a64709b14ac03d10da03be721027c7f",
+    "bytes": 71192
+  },
+  {
+    "file": "kaykit/city/gltf/building_F_withoutBase.gltf",
+    "sha256": "7fe97913eb97fe868b440ac4f13ca60f4d36262624526bbcafcef94566016343",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/city/gltf/building_G.bin",
+    "sha256": "06f0ec0113c748687b757c8c85bd45a8d0c3adf3c2201c8a990e93b3231e91d5",
+    "bytes": 103708
+  },
+  {
+    "file": "kaykit/city/gltf/building_G.gltf",
+    "sha256": "314dad28b2ef5fdd370534ded457e0381410fe8051687517552b8f1ac43fac11",
+    "bytes": 3016
+  },
+  {
+    "file": "kaykit/city/gltf/building_G_withoutBase.bin",
+    "sha256": "34112472a38f23489211829312a8e9e994ca772ee814c5295e39c62b2d4ca376",
+    "bytes": 68880
+  },
+  {
+    "file": "kaykit/city/gltf/building_G_withoutBase.gltf",
+    "sha256": "2a2dc998168a01bd34390d6fbb2a273e191c8b6e3258f4f3df09a37465ebf0e1",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/city/gltf/building_H.bin",
+    "sha256": "fbee968ad467c244087d0694febfcbb32300f803ac56e434e485f6ce47577e29",
+    "bytes": 118064
+  },
+  {
+    "file": "kaykit/city/gltf/building_H.gltf",
+    "sha256": "319d8392ba3b1662ca8506cfda7dbecc694a7d60268e20a136cdeecbe472d6d2",
+    "bytes": 3016
+  },
+  {
+    "file": "kaykit/city/gltf/building_H_withoutBase.bin",
+    "sha256": "310a8c61e9d0f29a0547a57c3aa1f3890c67cab554c5bd9cd5e0768f3c8499b7",
+    "bytes": 86880
+  },
+  {
+    "file": "kaykit/city/gltf/building_H_withoutBase.gltf",
+    "sha256": "51d6e3ecb8d12703163c806193787bff9c034931733ca7cd497568c1d62f1793",
+    "bytes": 3089
+  },
+  {
+    "file": "kaykit/city/gltf/bush.bin",
+    "sha256": "6b00a80ec23cdd55dd1398d648b51f1cf7eb4263cea61d3bf1dc24cc7c171b3e",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/city/gltf/bush.gltf",
+    "sha256": "b1de478b23e6bcfd08d6c070440582195839f66dfd3afc123118fb6298483183",
+    "bytes": 3022
+  },
+  {
+    "file": "kaykit/city/gltf/car_hatchback.bin",
+    "sha256": "e7756d8a44553ef75091bb4baa41388bcb1a1b44388008a3e670d05cb12f4c5f",
+    "bytes": 53564
+  },
+  {
+    "file": "kaykit/city/gltf/car_hatchback.gltf",
+    "sha256": "e38be3dbdfbc95b0e794fc5c8164b2ff658b2dc5049b51d38179d16a9432b4f3",
+    "bytes": 10952
+  },
+  {
+    "file": "kaykit/city/gltf/car_police.bin",
+    "sha256": "07bf3160554753cb6365e85c1c99dd9bf9ca4e8ffabeab5f15ff03ac18640d87",
+    "bytes": 62168
+  },
+  {
+    "file": "kaykit/city/gltf/car_police.gltf",
+    "sha256": "c6f1f85c2a8f56ec0abb76deac13486d42399c6d23868e5e524a090fce652d12",
+    "bytes": 10937
+  },
+  {
+    "file": "kaykit/city/gltf/car_sedan.bin",
+    "sha256": "1d69e7f098a5456a8c6891c4fd718ad1c71397045c8931817550a8801f00338d",
+    "bytes": 55332
+  },
+  {
+    "file": "kaykit/city/gltf/car_sedan.gltf",
+    "sha256": "96c9d38e682bc2c77470af09d1a7450208559ca652bf2cf6fd2bc20b8646ef59",
+    "bytes": 10928
+  },
+  {
+    "file": "kaykit/city/gltf/car_stationwagon.bin",
+    "sha256": "46d28202e738f62ba6aae5caae5d56852334ca53ac0628d88d03a5e5e3042c4b",
+    "bytes": 56172
+  },
+  {
+    "file": "kaykit/city/gltf/car_stationwagon.gltf",
+    "sha256": "49f7e2bdb70183214a3e8d8576e420ebb69520b21db81dddfc6a04e1ed8994fd",
+    "bytes": 10970
+  },
+  {
+    "file": "kaykit/city/gltf/car_taxi.bin",
+    "sha256": "28abb85c4eb0d38be9b4b0beebe0a55038565b1f9545fea65f59cb56672c1d11",
+    "bytes": 58704
+  },
+  {
+    "file": "kaykit/city/gltf/car_taxi.gltf",
+    "sha256": "781b3265473dab6f7e054f06c23abeba9b811516b19b61a7a88b0aa8d33e1323",
+    "bytes": 10924
+  },
+  {
+    "file": "kaykit/city/gltf/citybits_texture.png",
+    "sha256": "6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+    "bytes": 19885
+  },
+  {
+    "file": "kaykit/city/gltf/dumpster.bin",
+    "sha256": "389a04cddf27b9514226597627fb0f217499432be1a26c6b43e6f2bfdb652fd2",
+    "bytes": 8180
+  },
+  {
+    "file": "kaykit/city/gltf/dumpster.gltf",
+    "sha256": "56353a02aa70f61ea0f94f5806c66f489b2949b64db0611b5ccf2b500c815cb9",
+    "bytes": 3033
+  },
+  {
+    "file": "kaykit/city/gltf/firehydrant.bin",
+    "sha256": "02cab93bf6af8c16da083c6ac92dcc5997bed24dabc1e746ee780e623b07b3de",
+    "bytes": 8056
+  },
+  {
+    "file": "kaykit/city/gltf/firehydrant.gltf",
+    "sha256": "0a3f9fb95e8b4805602ad26050ee552408553682b41f3e54981a69dfa92a7f3b",
+    "bytes": 3067
+  },
+  {
+    "file": "kaykit/city/gltf/road_corner.bin",
+    "sha256": "357bfda56820b66292a6fa53e3bb506625da604c2ada9667971f045f563cc015",
+    "bytes": 7408
+  },
+  {
+    "file": "kaykit/city/gltf/road_corner.gltf",
+    "sha256": "592dadb7a6e81e2c5c2415d5e3872eaccece0c71ff1e34bb3ced06ceed4ce149",
+    "bytes": 2971
+  },
+  {
+    "file": "kaykit/city/gltf/road_corner_curved.bin",
+    "sha256": "5a89cc3e2cd8728512f52b0c1d1f643b2f8a5fecaedba6390f2b4f9b9d3ac453",
+    "bytes": 7976
+  },
+  {
+    "file": "kaykit/city/gltf/road_corner_curved.gltf",
+    "sha256": "92a3a77292b6f2cc75accd7b0340d98805377925cd0c9593661bcbf541913e88",
+    "bytes": 2986
+  },
+  {
+    "file": "kaykit/city/gltf/road_junction.bin",
+    "sha256": "deb16c15a1b4fb49b48a468c93ddee8a7afc64cd0e41616fff29d9ad3d063eac",
+    "bytes": 9724
+  },
+  {
+    "file": "kaykit/city/gltf/road_junction.gltf",
+    "sha256": "28ea556cf76cf3efd38b62c3610a338bca46ff8e25c336406821c85cf58b7c6b",
+    "bytes": 2992
+  },
+  {
+    "file": "kaykit/city/gltf/road_straight.bin",
+    "sha256": "6509b3509565e250de74a19728b9dd1e1351d40c8a50f4d18a1c6b3edb0bd068",
+    "bytes": 3676
+  },
+  {
+    "file": "kaykit/city/gltf/road_straight.gltf",
+    "sha256": "35c74b311a04e5682dfc7fc823867aa53de1cc19b86fa801730496ee69b52e68",
+    "bytes": 2974
+  },
+  {
+    "file": "kaykit/city/gltf/road_straight_crossing.bin",
+    "sha256": "2c9ffb1dcab28737a24af1b747a8fb233cb55e460724d517e2dc29cef80ca01b",
+    "bytes": 4096
+  },
+  {
+    "file": "kaykit/city/gltf/road_straight_crossing.gltf",
+    "sha256": "7df128514884a9356404fa3b42b10816a6dec8a211bc22233372cdbb7e1e71a9",
+    "bytes": 2992
+  },
+  {
+    "file": "kaykit/city/gltf/road_tsplit.bin",
+    "sha256": "4856ecd193740c544b8ff15bc7d0fc320a5cd83a1817eda7c69f35f75cb56f83",
+    "bytes": 7548
+  },
+  {
+    "file": "kaykit/city/gltf/road_tsplit.gltf",
+    "sha256": "dcdf1facedbd82419b9d0533f327bcf0b66ad74ced86c63d5151244a9cec812f",
+    "bytes": 2971
+  },
+  {
+    "file": "kaykit/city/gltf/streetlight.bin",
+    "sha256": "2e95833194e4cccbf00a413187cc54ede953c047f88b7cc7b1bef1a1d0aea9a1",
+    "bytes": 7136
+  },
+  {
+    "file": "kaykit/city/gltf/streetlight.gltf",
+    "sha256": "4399e9023844319e0f74311779a2c0ebecacec16f5dfd8123b6141a3af903c6a",
+    "bytes": 3067
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_A.bin",
+    "sha256": "8d41a66bbf788f5fd78fce0841ca9741c39314e0d2ad701e5161bb09bd4e8c79",
+    "bytes": 30664
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_A.gltf",
+    "sha256": "4a22f6fc11fcafd61b2272e675a20437d3c69003ae63002980a903a215941b15",
+    "bytes": 3079
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_B.bin",
+    "sha256": "e0a20f34caeb0812fa2a6df9e02c1a539e4e514b688029bde28f7d9977165bd4",
+    "bytes": 35592
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_B.gltf",
+    "sha256": "a7b9369e3cad7b58a0914a885a14d477c402295fc7d89b26280b4f77b742e28b",
+    "bytes": 3078
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_C.bin",
+    "sha256": "0be9badcc8096be76e7ff892a4ae19806189ed87bb0ea79df75f55a8e3efcb32",
+    "bytes": 24136
+  },
+  {
+    "file": "kaykit/city/gltf/trafficlight_C.gltf",
+    "sha256": "1453697f533323bcf661d59842850a3054ac0bee3d3e7cd8e1ea5e2d627de226",
+    "bytes": 3074
+  },
+  {
+    "file": "kaykit/city/gltf/trash_A.bin",
+    "sha256": "3fbaf543d240f71ea70bc2052461c93e9398ca36372c1d401dcc304b2788935d",
+    "bytes": 620
+  },
+  {
+    "file": "kaykit/city/gltf/trash_A.gltf",
+    "sha256": "dcd3a27821a9d8a781a40a393e167d51c1cdb743edf95edc59236fe32238b464",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/city/gltf/trash_B.bin",
+    "sha256": "2663a8ed7fddb7768457c2fddbe31e201140a756446dec4ad5b705485ac5be7e",
+    "bytes": 620
+  },
+  {
+    "file": "kaykit/city/gltf/trash_B.gltf",
+    "sha256": "6b549af074a24a1d2dd916af53d33d71d251b9e7e004de67294da02d336754e3",
+    "bytes": 3033
+  },
+  {
+    "file": "kaykit/city/gltf/watertower.bin",
+    "sha256": "384bc04add6c6fb56202e16688e375e4ad22739d46f37cd427e81087ffc192f6",
+    "bytes": 8268
+  },
+  {
+    "file": "kaykit/city/gltf/watertower.gltf",
+    "sha256": "55ae59f2a21ad38c64312a4c00d6808dc486bf4a8e8a8c969bc9e26cdc84d8f3",
+    "bytes": 3065
+  },
+  {
+    "file": "kaykit/furniture/LICENSE.txt",
+    "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb",
+    "bytes": 827
+  },
+  {
+    "file": "kaykit/furniture/gltf/armchair.bin",
+    "sha256": "7e8762add696dc52fe545c3f25d6d25331e70f2fafbdf9ea79de75a75effec2b",
+    "bytes": 17312
+  },
+  {
+    "file": "kaykit/furniture/gltf/armchair.gltf",
+    "sha256": "5236bd9c4945fb60d5ac4d4b064c0c0c74bcded1c280b474d3899a1d84d68b25",
+    "bytes": 3019
+  },
+  {
+    "file": "kaykit/furniture/gltf/armchair_pillows.bin",
+    "sha256": "b40556981e1bd4593ccaf7a14593f32e20859c2f2e6022a0ed0d1a278a4194a0",
+    "bytes": 20420
+  },
+  {
+    "file": "kaykit/furniture/gltf/armchair_pillows.gltf",
+    "sha256": "1344db27a72870fb0a1b43ffcfe12f5f3dd3284f5dcecd10ed593d6e0d940f79",
+    "bytes": 3036
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_double_A.bin",
+    "sha256": "0eb1bc50981bdb0c0ff95b30b6783dc5d40fd61497a4a21165d366e301c6e53c",
+    "bytes": 24648
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_double_A.gltf",
+    "sha256": "55451127bbeb9734bb88c1a761a6246eaaf89ac33eee2f703d78053719e5c4e5",
+    "bytes": 3011
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_double_B.bin",
+    "sha256": "34c2a62639167e346b916fad93823d7a9cf25b4a93b71fd634dfa50c6bbc24ed",
+    "bytes": 27856
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_double_B.gltf",
+    "sha256": "f74f5d6d126f4821294cdf0985e7365743d28893098e625f01b58fdb75093cb4",
+    "bytes": 3011
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_single_A.bin",
+    "sha256": "fc7631db4540d31cbe76dac3c672bc8836ee302796d14bba428bda84b9237f5b",
+    "bytes": 22044
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_single_A.gltf",
+    "sha256": "7b2852bb66bf82cad3e0d03a499b1480879790fa66b645347e3e73761c4fe3f5",
+    "bytes": 3009
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_single_B.bin",
+    "sha256": "a1b26c1848d104381b311cae4dbd4b6d574a3d79e6c9fe88087405f3a99bb918",
+    "bytes": 25348
+  },
+  {
+    "file": "kaykit/furniture/gltf/bed_single_B.gltf",
+    "sha256": "f702283107f35fe400aa55775baa9515cbd9adaf9e2003b3441fd5cbedb9a07c",
+    "bytes": 3009
+  },
+  {
+    "file": "kaykit/furniture/gltf/book_set.bin",
+    "sha256": "3aa3fcc774b46c7ffe2b1a3109bf006749163bbb392cfca930b34bfba4b67853",
+    "bytes": 11576
+  },
+  {
+    "file": "kaykit/furniture/gltf/book_set.gltf",
+    "sha256": "437bfaba3f3413a0b825627a1cb905765a191f4708be51838c9b60c8132cbe61",
+    "bytes": 3051
+  },
+  {
+    "file": "kaykit/furniture/gltf/book_single.bin",
+    "sha256": "0aa0921f471184039e85488a80041a0b4aee6f68589ad53077eea03f4659d66c",
+    "bytes": 3992
+  },
+  {
+    "file": "kaykit/furniture/gltf/book_single.gltf",
+    "sha256": "7b86695b060681fc6de8ac70fc1f24b870edcaf84bfe4ed98b7e706ae594d464",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_medium.bin",
+    "sha256": "3fc4bff757a36226ecb9504dd6e9d031a5a6c957cb9cc2bb636f12ab49e877e6",
+    "bytes": 23304
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_medium.gltf",
+    "sha256": "139419c479c6f8b38ac24e12ce85bf81a199e05067a544db879f7e403446c9dc",
+    "bytes": 3000
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_medium_decorated.bin",
+    "sha256": "03b4374eeab5d9d9a7cb83a410b00aff243cf8d3f39ea0230ecceeedd93fbe8f",
+    "bytes": 49020
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_medium_decorated.gltf",
+    "sha256": "144b417f282e689ad4c40e8357c5ab76ad26fe3ca0fd777cca29d59eb6013a81",
+    "bytes": 3060
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_small.bin",
+    "sha256": "b29dfd659c0b0f7b5a97377e42b52ebcd8245780bcbf024b383f45ec0e59641d",
+    "bytes": 19468
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_small.gltf",
+    "sha256": "06ce4ee6232ee68e791927e838bb8e77c11391b7de9ba3141374626a910772e5",
+    "bytes": 3001
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_small_decorated.bin",
+    "sha256": "b123a747dd82f2088e2e823e9a3e42cb581b42878e67ac9060363c7d612e07f2",
+    "bytes": 27552
+  },
+  {
+    "file": "kaykit/furniture/gltf/cabinet_small_decorated.gltf",
+    "sha256": "3d241df76df2030583c7ebdc292063b5ded40cf9c642e8cfb18b4e0855f3702a",
+    "bytes": 3068
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_medium_A.bin",
+    "sha256": "be9378a1328b82751ac651de9387d7b20db4ffbb5e1c087b0e634a00ebf7cc0f",
+    "bytes": 17536
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_medium_A.gltf",
+    "sha256": "902c48a87bf8e48a2d72055485eaaeae3aefd91224e5af914aeb42fca99759a8",
+    "bytes": 3072
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_medium_B.bin",
+    "sha256": "3b19e4f559ff111ef66f8bfaea3989f31368ca86d4c46212be4ee26d1a56aee4",
+    "bytes": 17536
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_medium_B.gltf",
+    "sha256": "849e6bf20405548890ebff081970f92a39af6e749a3fbb0ecc8f0363748c5e3b",
+    "bytes": 3072
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_small_A.bin",
+    "sha256": "43dae3699635f54fb84199b7a998c1144690c3e54d6c3fc3c045c38aa54f7fdc",
+    "bytes": 9320
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_small_A.gltf",
+    "sha256": "4e2d93fb22b7f6097f3726b1fc513647873428224c01b17abdbe79c01c1e959b",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_small_B.bin",
+    "sha256": "84b85293ba5ede54f1c970531e679bb181c584adb65bf96ad94c52122319edb3",
+    "bytes": 9320
+  },
+  {
+    "file": "kaykit/furniture/gltf/cactus_small_B.gltf",
+    "sha256": "f3f9555486151b309d682a94dc120d893167bd8f506f61c20264a23c8b54d38d",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_A.bin",
+    "sha256": "8db53212634ccc983dc0e9940f2809b3951abe91d0cc8ad040cf74d7100f19a8",
+    "bytes": 16504
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_A.gltf",
+    "sha256": "fdc71044f23c89c5cff9093cff18bac295c9b750e73daf3cbd8ee6ca9e930dbb",
+    "bytes": 3022
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_A_wood.bin",
+    "sha256": "726ea8962909becf3d925d272928a8e26a1f345fc9f8f165e7424221c69be733",
+    "bytes": 16504
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_A_wood.gltf",
+    "sha256": "e17a16127b9a3e44ef8888c9d52fe7ec09a06b348934627816a538720793af8d",
+    "bytes": 3032
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_B.bin",
+    "sha256": "1862f8c8392a67e39219e480ba2aafd19e67bbbfe7c6d3b459f082dea041a1fa",
+    "bytes": 18240
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_B.gltf",
+    "sha256": "e9cb04ebee4a60a22a26449b46c22efd3c7a022a3bab937ac813ed30f4392855",
+    "bytes": 3049
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_B_wood.bin",
+    "sha256": "223864f633ba3c5fb06e239a907b5f379fe0a3ad4f5c5fff2577e97ef0f6250d",
+    "bytes": 18240
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_B_wood.gltf",
+    "sha256": "7a19685725e1878f960e0ce724eaffc9a2a5fe36c0496608dd5328aa73290f03",
+    "bytes": 3059
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_C.bin",
+    "sha256": "dbcd655953927997f2a4f61676692d053f4eb261b364fe5441276aa4614cfc9d",
+    "bytes": 12608
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_C.gltf",
+    "sha256": "fc042915c24c52f96f0571db348a2de275b15c0065c3e561fce37d4dbc81568a",
+    "bytes": 3036
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_stool.bin",
+    "sha256": "c99c96e2440a55c6c08ac929493424b221b11482618229fcf8574baa93ab4566",
+    "bytes": 10832
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_stool.gltf",
+    "sha256": "6f830305b9afb97f8d77d52a92971ee237d3012db2ca1abbd4abafc2d82f4c46",
+    "bytes": 3042
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_stool_wood.bin",
+    "sha256": "59ebde1791f6c46b6f3880cbe5632e44b123466a1bc7d2d2f3008da9a2a492ac",
+    "bytes": 10832
+  },
+  {
+    "file": "kaykit/furniture/gltf/chair_stool_wood.gltf",
+    "sha256": "b1670bee678ab5920ad8ef3a6fb7c6146054bb7b859798f86aaac96be5765f35",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/furniture/gltf/couch.bin",
+    "sha256": "00f6c9892aa87e2894e049ba47d697307c158c5096eb41bdd44474d5e7ecf5e0",
+    "bytes": 21416
+  },
+  {
+    "file": "kaykit/furniture/gltf/couch.gltf",
+    "sha256": "1a5b74b3a3368870783743c5ce7baa61f45f71131dca66af80b35fd4ac63c222",
+    "bytes": 3014
+  },
+  {
+    "file": "kaykit/furniture/gltf/couch_pillows.bin",
+    "sha256": "3157c7ce9717ff69f198f9da0395d7a57e9ab230f2161990f86e21395608cc3e",
+    "bytes": 27632
+  },
+  {
+    "file": "kaykit/furniture/gltf/couch_pillows.gltf",
+    "sha256": "d3396c15fc460c5db1e2db95b06bb623140c269369f2e9bc38dc4d3b5807011c",
+    "bytes": 3030
+  },
+  {
+    "file": "kaykit/furniture/gltf/furniturebits_texture.png",
+    "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc",
+    "bytes": 15605
+  },
+  {
+    "file": "kaykit/furniture/gltf/lamp_standing.bin",
+    "sha256": "ee58a9e2776406071c8ac60714f1b4dd7ad83a11848ee24aec77b297c9d535d9",
+    "bytes": 11648
+  },
+  {
+    "file": "kaykit/furniture/gltf/lamp_standing.gltf",
+    "sha256": "ff42a083e688c94948493c441d4db51c7e0736336525b3eed4f4da75825b88b7",
+    "bytes": 3034
+  },
+  {
+    "file": "kaykit/furniture/gltf/lamp_table.bin",
+    "sha256": "c3d4cc2fea09cfb3037b9ece861abf6126cae3226858f18de37bd8cf87a06145",
+    "bytes": 12816
+  },
+  {
+    "file": "kaykit/furniture/gltf/lamp_table.gltf",
+    "sha256": "7cc2e9f24145551bfc919247e74a414bbd40bc2fde1fb9a1ac33e16cb9d0497b",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_large_A.bin",
+    "sha256": "85368442c0af0cc12cd32fa512284391905219dd7a88e3360d69a1a25db2262c",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_large_A.gltf",
+    "sha256": "b12aadc4e0179aa9c27a18cd31f5a980159188a20d11cc62b9c5a97e4381c59f",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_large_B.bin",
+    "sha256": "ff87db23fa7e1b9c7e55c8a25bbb9b5d37f11bf94c36e1d97b104fa8d9b22660",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_large_B.gltf",
+    "sha256": "1ee9d4842d9f4626e08ffce88e34293a7a8b11ffdc1cd0340eb934c209a97cdc",
+    "bytes": 3054
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_medium.bin",
+    "sha256": "ae120086448ad5f8c8a2e1a360355f9052f4b7848e5b422b00398827b9355e8d",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_medium.gltf",
+    "sha256": "768ebf5e81d2d4dfe87276e70b7373ee541592ca409a57067e5e76626a010926",
+    "bytes": 3069
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_A.bin",
+    "sha256": "e0e7dd8c5fcbc564e19934d9b820942aaa0637c1a7112e714d56db9d90926db6",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_A.gltf",
+    "sha256": "4482cf85a994f9ba3ef45fe490858e5633ef0f09767f79a8511b826024e1de85",
+    "bytes": 3073
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_B.bin",
+    "sha256": "08da006ae3bb669f591b742ce25aa9007068282be3cae1fc43525f623ab25fca",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_B.gltf",
+    "sha256": "b65a9e655be3dbdfa02c0363bf5652461b480f53a584a3749d19e26120435bfa",
+    "bytes": 3073
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_C.bin",
+    "sha256": "0b4a3ef34939cf0232bf0d01a398095238704385314e02c196e44d38c9322a14",
+    "bytes": 3176
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_small_C.gltf",
+    "sha256": "ca88e60a46bfa85e6b22bd318b2d2aac33a247ab0d480ae995fa13157f4d2731",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_standing_A.bin",
+    "sha256": "5c1f0b5344fea1938b5058bc6f1f5b402593728a6d0b926e3eb542e1de0807d3",
+    "bytes": 4092
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_standing_A.gltf",
+    "sha256": "214ae94eacc35984cfec9185ef05e6c930bea45c974b3cec013e991b841fae1b",
+    "bytes": 3050
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_standing_B.bin",
+    "sha256": "e94f9884301a778cee61c3c03b63e7c013a66a1dc32f42f75e25650e9918c203",
+    "bytes": 4188
+  },
+  {
+    "file": "kaykit/furniture/gltf/pictureframe_standing_B.gltf",
+    "sha256": "93933e6d9b96b8f3718e2dc7be1723e8bf8604f35dd035796a88618f2a33dddc",
+    "bytes": 3081
+  },
+  {
+    "file": "kaykit/furniture/gltf/pillow_A.bin",
+    "sha256": "9a295dd293a96e518b0388d3cfcbc7c0ce491e46cfe2c5e3affa016b99e8c0ff",
+    "bytes": 2724
+  },
+  {
+    "file": "kaykit/furniture/gltf/pillow_A.gltf",
+    "sha256": "c24247361c709675257b516dfab950708adf8c086710e8a1fc85e572ea5ebb61",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/furniture/gltf/pillow_B.bin",
+    "sha256": "4cf9482b7fc816e038da3f25a793761b30d60880cb24b4f04ce1aee5f07f9d53",
+    "bytes": 2724
+  },
+  {
+    "file": "kaykit/furniture/gltf/pillow_B.gltf",
+    "sha256": "cf47391e684e93241ba5f9db6bb1e518700fe3a7a79b7f58c40e38ee62e9e36d",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_oval_A.bin",
+    "sha256": "4d55cba0cc3e86c930b320a14a25d2742e8bd214f298bfbf23f73329b0cea32e",
+    "bytes": 6560
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_oval_A.gltf",
+    "sha256": "5d49e065dcb89c0585a17c41823b19788c6e41ab2d8dd45299250241911b1231",
+    "bytes": 2970
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_oval_B.bin",
+    "sha256": "57804d2de6c6ce964b5e597d288492912d99fc90a311e86ea6e80a6a22087a55",
+    "bytes": 6560
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_oval_B.gltf",
+    "sha256": "34e61ec3d96e4af2de6691fa376796469d157f82f91fbc69d69a2e364ce95851",
+    "bytes": 2970
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_A.bin",
+    "sha256": "10eb71fc2b20b056b6186526d451ee0a560c425495402d7818f4413795aba506",
+    "bytes": 1800
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_A.gltf",
+    "sha256": "892417306a01eac711c6af97b148fc152d375940ec3660964b36e10ea2a8cfda",
+    "bytes": 2971
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_B.bin",
+    "sha256": "d60abedef14aed184c9231fc59ff296bd9435b8fe28844804c5aa4515beb3b70",
+    "bytes": 1800
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_B.gltf",
+    "sha256": "03fba0522315e872a545fe915f111aaaa54d5682329766e98e1fcb6e9a78ba51",
+    "bytes": 2971
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_stripes_A.bin",
+    "sha256": "4ce28e95c940d486b3bb94e91b79a8ad9633b3628dbd6f07be03a6ec6b3ac579",
+    "bytes": 2712
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_stripes_A.gltf",
+    "sha256": "daeafdd3efd5c2d3781426d1bb48ac6dc31893dea30abd3e6f2b22ff70890c55",
+    "bytes": 2988
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_stripes_B.bin",
+    "sha256": "b4fbacb59a9289490f74d059e921efcc6aaef54a3ba3e8f4b927886aed93da5c",
+    "bytes": 2712
+  },
+  {
+    "file": "kaykit/furniture/gltf/rug_rectangle_stripes_B.gltf",
+    "sha256": "dbad49ace370c37e3821b5f029dd8af0ed0ea6b768180983ca960d5b2565fa85",
+    "bytes": 2988
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_A_big.bin",
+    "sha256": "d133c5a07e63360d69a1363d6a96cc011b4db9e645358824fb8f274b02a59700",
+    "bytes": 10104
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_A_big.gltf",
+    "sha256": "e2f1e24576e603a390f29f5c55c2013389cebaddb0255e1a4808e35ef1279873",
+    "bytes": 3025
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_A_small.bin",
+    "sha256": "4e87b996fe8184cac7d556d0ea854513bd7d04e674d254fb8c7d296320cbdfc0",
+    "bytes": 10104
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_A_small.gltf",
+    "sha256": "198fb7851f987c51c8dba4ea2e22c27345467c1cbef700995699c10298f9edd5",
+    "bytes": 3033
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_large.bin",
+    "sha256": "30bbd1a44054d02245bd7388d7143c5f676928d4e293a93f9fd442479afd4840",
+    "bytes": 10104
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_large.gltf",
+    "sha256": "438921fdd044014a02f4e77e4b02205222d83cec3632db2eb8dad50173b24d5c",
+    "bytes": 3047
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_large_decorated.bin",
+    "sha256": "80b560eac9dd1d2750149f96f4845ead4c734f446088975a5c0a1c259dd50611",
+    "bytes": 25772
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_large_decorated.gltf",
+    "sha256": "fc613ad31e07529ad1ec9044a8e7e900821c8636efbd714a3238292326a49fad",
+    "bytes": 3069
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_small.bin",
+    "sha256": "7e75cbd1c734a901852c4dc924dc47f9fa75eaed85b19503a6b24218b5efcdb1",
+    "bytes": 10104
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_small.gltf",
+    "sha256": "6e6a946ef20fc916247f9ff59b74a3c958edad53c2594356086e7e36fcde5e6e",
+    "bytes": 3049
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_small_decorated.bin",
+    "sha256": "de3efcfcdc9572dfb1f82d22f99017d56e0b7c1451ce9bbe12fe1d828f8c677f",
+    "bytes": 23416
+  },
+  {
+    "file": "kaykit/furniture/gltf/shelf_B_small_decorated.gltf",
+    "sha256": "7a8748dbe6dc428aa45dbef650c7d10bccee41e823c832ecd9a95b870675aa59",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_low.bin",
+    "sha256": "e9f604c5676bfa974d6d1bf45757a11d298ac40e8e7981be29d249936c8339cd",
+    "bytes": 12408
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_low.gltf",
+    "sha256": "3bf202a3ee70ee95943c26419bd5f540353a16b8b6a0b41449746f85c3319a2a",
+    "bytes": 2990
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_medium.bin",
+    "sha256": "0e6ba8fd006f673d946979e45487067f4e274be9bbd07816fd371578d2a37518",
+    "bytes": 9328
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_medium.gltf",
+    "sha256": "fd5e5fe8bbf1d3729b6bd725165d58490e9cbd8dd46ce42314b01f20951a302b",
+    "bytes": 2973
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_medium_long.bin",
+    "sha256": "b436c4b982a7defac5310f6ca17bf387f24c8c9b843e035c09d23094ace9b788",
+    "bytes": 9328
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_medium_long.gltf",
+    "sha256": "e3ba8f08ce5964d602cde13ecba2b837f90b3ed22d092e28fa489f3c216e2488",
+    "bytes": 2987
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_small.bin",
+    "sha256": "e18bad66ad227a4a374fd58fbe6870a73c0f3f3687cb363506e0d77e07964066",
+    "bytes": 9328
+  },
+  {
+    "file": "kaykit/furniture/gltf/table_small.gltf",
+    "sha256": "6ae46ef60d18cf1fe507fbb2fb20235144af2ac7101f410269a761ac91ae9aee",
+    "bytes": 2979
+  },
+  {
+    "file": "kaykit/nature/LICENSE.txt",
+    "sha256": "881e50d3629fba90629bedc65e9e6f47cfab3609598c296dcb7f70ea83174360",
+    "bytes": 1027
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/cloud_big.bin",
+    "sha256": "5868ebf6be7315cb9221c929c202e7177d44cbe97852e71ae957c86bba22bd57",
+    "bytes": 14848
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/cloud_big.gltf",
+    "sha256": "de414aab3585db0e5728c43c074941c875cb4b89e13d59992208fa2bcc777fb6",
+    "bytes": 3043
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/cloud_small.bin",
+    "sha256": "5d3bb56004b2a5535e2f9594b33df95cb9509bef2cf6da39fd9042a2336939b6",
+    "bytes": 8116
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/cloud_small.gltf",
+    "sha256": "581f5a9227488ef1b377c527764bd8f009d670bf229def04460e569ad8c46684",
+    "bytes": 3049
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hexagons_medieval.png",
+    "sha256": "5301a06866ba3be68dcc14cc429bd6d0f69004b72884283715d7e233f2e9782e",
+    "bytes": 15783
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_A.bin",
+    "sha256": "db4fdd504cbdcc0d793c296be7a6e59705295dfa6fc453d770804c986f082c65",
+    "bytes": 3208
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_A.gltf",
+    "sha256": "00eb206cb0239257d05c107568bcf1fd6548d2f3da2cfb6ec8ecd41c377bbf06",
+    "bytes": 3032
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_B.bin",
+    "sha256": "5e9c42be7ee7845d3506229c1ead85894bf265447a13ecbb99819c1073d54ee0",
+    "bytes": 3272
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_B.gltf",
+    "sha256": "c9bd49a5e7daa884c452966463e8cb4000992cdf216caad561ae9c43dd8a1961",
+    "bytes": 3032
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_C.bin",
+    "sha256": "f1b8663bde9111522611db589965371efa28c18474e04059a7b204a5b8725f92",
+    "bytes": 3304
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hill_single_C.gltf",
+    "sha256": "eb781cc4873a80d15f0b7e4ef72286413bb4e2be2e1d51765b9cf9b33ecd7de2",
+    "bytes": 3031
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_A.bin",
+    "sha256": "a1d3bb1874dee2c2bbd1331a5ad5605a6975ec3714d23fee83e440002e19e0c1",
+    "bytes": 22076
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_A.gltf",
+    "sha256": "866af95bdd72acf0d55916f55daf5db798254d57c8b187440c8ff9ad8fa29671",
+    "bytes": 3022
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_A_trees.bin",
+    "sha256": "8554d4e0c5e9d049cfc82602bac8db69e3050b7eb6a020039dc7fe6d84ddd272",
+    "bytes": 31044
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_A_trees.gltf",
+    "sha256": "6e7e71bd37856c442dc7cf562a1cc1e9eb172050dc002d2d65c3fb5b90ae1d28",
+    "bytes": 3043
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_B.bin",
+    "sha256": "cce56b9dd3085008ad08db3a81eba14aa5bcaebd3b6395385b617599cec4296d",
+    "bytes": 13260
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_B.gltf",
+    "sha256": "2856f1ea5856d560a7ddc9c6d3b0238f7dc8ad4e153d37ef96d92eaf96cd9510",
+    "bytes": 3039
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_B_trees.bin",
+    "sha256": "ca48d2b45eb7793d7ffc7e8ecfde4ce08248d716c9a7c67ade720c1923de3f0a",
+    "bytes": 25220
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_B_trees.gltf",
+    "sha256": "7cc42569d75c661951ca96db8f9d1e1ed163b8fb1d5cce893256648a4f9c20ef",
+    "bytes": 3058
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_C.bin",
+    "sha256": "472f1f293bbe96436b91a715ca293d31ab1a39a5cc20c31ff7ef9f2e484a1084",
+    "bytes": 14388
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_C.gltf",
+    "sha256": "6c1753e6dba49d04f70a8d6a279a2b541e7414eafa096bb5c2c10e62ae4b3605",
+    "bytes": 3041
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_C_trees.bin",
+    "sha256": "6fd833d5ab2603ea0ddf9f506f291a686de240e2fb1967d91d46fe095e997f8a",
+    "bytes": 39376
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/hills_C_trees.gltf",
+    "sha256": "fc168c9bb436f25580715fb17dcb470d8426ae693f7f3dbf0aed6dc0db219092",
+    "bytes": 3065
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A.bin",
+    "sha256": "7c6db7d27fba6452e31e3b534c9a60ede073e3e49828d404b0a510f2afd8082a",
+    "bytes": 7632
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A.gltf",
+    "sha256": "b29375a487ee0e86519bf8f483b644cfe688b4c8321d7db558164a96750ed59e",
+    "bytes": 3045
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A_grass.bin",
+    "sha256": "80ccf91b226646b74d61b99a6c3ab02ada2096bad4f995f2c9f580733f698b74",
+    "bytes": 15360
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A_grass.gltf",
+    "sha256": "f8e7e228a5c5ec2edb1f8abb899328f085c6a951ca006fabb75df117150a8cd5",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A_grass_trees.bin",
+    "sha256": "fb278182f717586e4d44a5dcc08b1cfbf4ba42ce25cc6b18c53c3af6e6cc44b1",
+    "bytes": 27320
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_A_grass_trees.gltf",
+    "sha256": "defb29e0132afd4ec5cb33281efb890c9ed9603b5181471b31ff4f21d71c143a",
+    "bytes": 3085
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B.bin",
+    "sha256": "b6af8ac3e6e2df676f9535ee55f49cf792658534e112fe173e52b2bbcfc7d4ac",
+    "bytes": 7632
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B.gltf",
+    "sha256": "367b785733d37cb2714f65ba5ceb182e1c2209fafb81b7ad41ba773564cb6915",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B_grass.bin",
+    "sha256": "b69692eb3c98912423315b31f262625074f22e214312d964a8a227339ae7f136",
+    "bytes": 15232
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B_grass.gltf",
+    "sha256": "4df9f7e2479b581061f3369e9da18de672e89dd896d7cb116d6078c823150afc",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B_grass_trees.bin",
+    "sha256": "dcc54c16a9c24478c3c8ba10ccc91490640bd6cbec73f293d05b05af1e1ae9f6",
+    "bytes": 33172
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_B_grass_trees.gltf",
+    "sha256": "bdab5e7879a6ac0d783470b2cf7435425b273d101ef38f8aa43b8e19424097f8",
+    "bytes": 3089
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C.bin",
+    "sha256": "818e9d84d356f41886cc8a74041d930076b053706a1db6d6d49773188ad2e7d0",
+    "bytes": 12720
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C.gltf",
+    "sha256": "e3c15b9f11b72745218ef87adc7a56d105816dd4ede111e4f58b315591201509",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C_grass.bin",
+    "sha256": "bec03d5977766260c041c443ac5df8eced1e6f2da1d0dc6f42749e1363d3c43a",
+    "bytes": 25408
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C_grass.gltf",
+    "sha256": "e056305d7080c44fa22125eb17cb00b82d3c04ee67828e8240501672b9cc990b",
+    "bytes": 3068
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C_grass_trees.bin",
+    "sha256": "3e17063c0a4135f2fcb1ba6aee9468db5ffcc223b2dd809b6f8f9ca6c5ce8ce1",
+    "bytes": 43348
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/mountain_C_grass_trees.gltf",
+    "sha256": "511b1475445b2918cbe3475862550f9fb8bc61ad0224e33d20f55a91770f2975",
+    "bytes": 3091
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_A.bin",
+    "sha256": "0f038d45b8df2c9efa034e5d3c3635a475a2683e2e741aa9a0cd197c5689e2ce",
+    "bytes": 1228
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_A.gltf",
+    "sha256": "ddf307987fb18aa8e7594bb399de3943e497b50bc01aae0e7292a38418944915",
+    "bytes": 3031
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_B.bin",
+    "sha256": "fcc0d8a45e7f6ad0eb674de934b0fa54be8f3dd61fa389446dd6b7be2cd2e2c1",
+    "bytes": 1628
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_B.gltf",
+    "sha256": "2014965b7131e6f9a804be7a90ba3800b6035e8af2ff6f0bf67c5e72cac1bf15",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_C.bin",
+    "sha256": "7d63c76a9f576bda17a63c77d8f7c9f617e11ed57e3459d9c8d5da7ebdf0b8f1",
+    "bytes": 2192
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_C.gltf",
+    "sha256": "4cbf4a67fa176d2374b4863348fddf7879b892e612dd455ad14173f17172d45b",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_D.bin",
+    "sha256": "82df2f90d4458f2a100a38eaa1a367ceae15d88cdec71fee70a6e93c5a9d48f6",
+    "bytes": 1348
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_D.gltf",
+    "sha256": "2071ec40393a8fd5014dcbff5b88e769a40bf787080b6bf9eef4e5024a2c1c32",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_E.bin",
+    "sha256": "0fa8bf98327c31018642bebc06fbaba3476564c76d8c3a036c49ff58dea0a57b",
+    "bytes": 4300
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/rock_single_E.gltf",
+    "sha256": "09e77f8cca93237863a1c6bac262bb473eb2706c0781035b01b031d1207e6d29",
+    "bytes": 3057
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_A.bin",
+    "sha256": "437deac68f35338bb309b01e4d346dd4be37557d7a2f033d04765f63e1b88825",
+    "bytes": 3340
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_A.gltf",
+    "sha256": "ac913af6eaed6f15d26a2b75a877aa8dd10de90f26298f3f953abad86a4b4606",
+    "bytes": 3053
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_A_cut.bin",
+    "sha256": "ce55d40343e9eaaddf693604157a6d5ef2e4e311530b5d3c09bceb13a80564ce",
+    "bytes": 1056
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_A_cut.gltf",
+    "sha256": "203a2a60e03d4e5dd16fd06571c81e9f7e3dd39e276bb59e0e004e839fc30f28",
+    "bytes": 3060
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_B.bin",
+    "sha256": "c6a7423ce62f61216f7d8c77e1bd1d8665cbbee59718e59e0e42485f9acfca36",
+    "bytes": 7368
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_B.gltf",
+    "sha256": "1c038591301947c485937e9fdbab182c813ef32df48c02fad3daeb2f1f0421e0",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_B_cut.bin",
+    "sha256": "19a09a1739c9ec1064601d890c4d5ca068b277b9cefc24cbfcfe6cd76e550f02",
+    "bytes": 1796
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/tree_single_B_cut.gltf",
+    "sha256": "9fb68492630dfe08e4d99c8b0f8f9ea2118b68ec26a2c2557f97a48c48008395",
+    "bytes": 3063
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_cut.bin",
+    "sha256": "e46809c49b90b87a413a59f17f84bfa89d39d45101f8bb555bb58ee286828bc5",
+    "bytes": 19008
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_cut.gltf",
+    "sha256": "272463101be93d4cb9d4875e6e803710cdadcdd2199a76f4bd506c99e41d36ff",
+    "bytes": 3054
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_large.bin",
+    "sha256": "0f4fe0b3677bfc15b841632db34db8b50c45319492a8e89b6663f679b2525227",
+    "bytes": 57024
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_large.gltf",
+    "sha256": "8747dd5f3d7209e0b01c4b6af662a776db451374b7ee11671d8fa9676d89c33f",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_medium.bin",
+    "sha256": "3cc6f0f007aa2dc0042583741f35d9b0b8e65496e7289b9e312626c3936ff8b2",
+    "bytes": 31680
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_medium.gltf",
+    "sha256": "c330d7c775c50b7ccbc6ce7799e699fbdbbeb14a390315e85419dc0dfe5178a6",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_small.bin",
+    "sha256": "3f968cff82e97d88c13dc73379606aea406cd2c1c98690e59ef64c5b884da507",
+    "bytes": 28512
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_A_small.gltf",
+    "sha256": "5065a925666cc65caad857bcdebe5dda33aa19dab465504f809a17f6526bfbb4",
+    "bytes": 3058
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_cut.bin",
+    "sha256": "e033319c3fd8dae5aacda273242ec3fb9d57d4b3256440ce729ef715649b6c80",
+    "bytes": 12732
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_cut.gltf",
+    "sha256": "d8c6544b88f132f87f77c7f9c8c7ed9d77c607680137c69d7d24a59d2d0fa8fe",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_large.bin",
+    "sha256": "125ccb49803100448883631c079c5b95c2d4d2cf6551dd59d31f46eb063702af",
+    "bytes": 51960
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_large.gltf",
+    "sha256": "96079d9ef389d4f51512bed4a8da3d05f89b8bb6a24e1ef0e04711de27f141fd",
+    "bytes": 3067
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_medium.bin",
+    "sha256": "1e9220c141074ce2d530a14996cd1fc1d02dc49f76c1717cd4e55b8cd3cf1936",
+    "bytes": 37096
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_medium.gltf",
+    "sha256": "339abd58c47a5d7f2da2b30fe448c72452471a99b22007bc412d7439ef5384ca",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_small.bin",
+    "sha256": "82879711b21f0135129abdfe8f1d89d93f88cec35b2f7d63922d871fea46fdd7",
+    "bytes": 22168
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/trees_B_small.gltf",
+    "sha256": "f9a491097a116f98a11022b1b1adb563946ba28751f9184d689a8019ef4d7e41",
+    "bytes": 3059
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterlily_A.bin",
+    "sha256": "d5566117df906426f5ccb1f1385b31e931334eb141e8c4b6d1901181423f3b5a",
+    "bytes": 2616
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterlily_A.gltf",
+    "sha256": "037a145b2e75f8dc35b0712456469dd99697046b112194843deac454589474b8",
+    "bytes": 3027
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterlily_B.bin",
+    "sha256": "0798b6372fda29e878b84abc16ed2b557588d40da6013702089b2424292b2f85",
+    "bytes": 2840
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterlily_B.gltf",
+    "sha256": "c45b2c221633c184f02d09371b23773339ef33f3b8725985b4943b97ed83fefa",
+    "bytes": 3028
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_A.bin",
+    "sha256": "03022fac7dbab3ddff3f3ea87d682f4085494f69f43b2229eab651e00cbffec1",
+    "bytes": 2988
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_A.gltf",
+    "sha256": "a4b1c359cc60eb24e702d60777f65795cc490e79ac3ce2699458909a470a7abd",
+    "bytes": 3049
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_B.bin",
+    "sha256": "a7f83aa66a4105d079d2e2b8e0d32a99a1a0dc6195f4846c45e3b855530ec85f",
+    "bytes": 5804
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_B.gltf",
+    "sha256": "4f1722158c7afae8629fcb8da2efe1c574ca9002b9bc3d76356dd07262acad4d",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_C.bin",
+    "sha256": "776a05613c27f8a63a51e19e9668d086200fc40a8289bffc8dae1e909a8983d8",
+    "bytes": 11852
+  },
+  {
+    "file": "kaykit/nature/gltf/decoration/nature/waterplant_C.gltf",
+    "sha256": "f70a9bdf104cf4a1ed3d7e9d96abcb1f147916e265992fa9cd2b08e31d30d1c1",
+    "bytes": 3058
+  },
+  {
+    "file": "kaykit/restaurant/LICENSE.txt",
+    "sha256": "4da4ad3a3face68a71c11c8adc8e93017fdeb8fd67fcb0ca8286bd9c3dbbf674",
+    "bytes": 862
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl.bin",
+    "sha256": "63e58259e0f92cad6d4cab88ac89609b1ee877b059c2f9658343e809b543fe73",
+    "bytes": 8256
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl.gltf",
+    "sha256": "cc10f197bd52be38352c1c7bf1371a577ca5e9a64f05059cae357eff138f8916",
+    "bytes": 3041
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl_dirty.bin",
+    "sha256": "24d485317a258608aa803ff94df4a33b7d02a53e74459c70ca5be02b7571ff6d",
+    "bytes": 11196
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl_dirty.gltf",
+    "sha256": "912c0b94be5b155a9c648fc279cdf8827aab2d0686d6833f6ae45335b00b473d",
+    "bytes": 3054
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl_small.bin",
+    "sha256": "78c8d4b1735eb91348878d4621dbbeb5f3ede2c39782226cd5bf26ce1cbe96c5",
+    "bytes": 8768
+  },
+  {
+    "file": "kaykit/restaurant/gltf/bowl_small.gltf",
+    "sha256": "d015f6b90078827d1533b53b329a3fdf48edad38edf76f433f4da2596409650c",
+    "bytes": 3040
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_A.bin",
+    "sha256": "c95a15bc30e2bb9f122762590819c99934db31b7e7dbf3e54b68eb105e36148b",
+    "bytes": 16872
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_A.gltf",
+    "sha256": "0d0abdc382abedb3e4bc2e0260af663c16ff2dab0d441f09d675e0709a7a7310",
+    "bytes": 3037
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_B.bin",
+    "sha256": "bd49e308ee3ba0c68a8ded2aebbdf3575c6b676adfc291dcf7e0748b5bdce2fa",
+    "bytes": 16872
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_B.gltf",
+    "sha256": "99f967a4de8d458fb4c75e9c32e64e3871fa0d18d4a0df65b40120e3b6d35707",
+    "bytes": 3037
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_stool.bin",
+    "sha256": "dc5b44cad6aece8dc5c6de343f76ff6d600a8bf3c24da27dc44e62a583176325",
+    "bytes": 10016
+  },
+  {
+    "file": "kaykit/restaurant/gltf/chair_stool.gltf",
+    "sha256": "6b224ab4884e7fff7083c02f630afc63cad698dbd4a99860d6f8988f308069b6",
+    "bytes": 3009
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate.bin",
+    "sha256": "252687039209b62a3283319d2836d0e0d6745dd638ea53e2315df981c75a6c07",
+    "bytes": 8984
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate.gltf",
+    "sha256": "f745014f6239147f2528ac24ef988a5833d048bd3aede81085f4c4fc879a8e16",
+    "bytes": 3017
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_buns.bin",
+    "sha256": "027f1511a12f4b4bd7926ef592731e2a3f2414e30195f5648f8df016c352781e",
+    "bytes": 102776
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_buns.gltf",
+    "sha256": "1bf19d10a601dc62820df5c2ccb239cd1fb35f5a5866363810b8c3c33b2a3594",
+    "bytes": 3041
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_carrots.bin",
+    "sha256": "40e0bf2bced5f00d6d5af93ec3769a335a37291c47e6d6bab82db7fd940f1454",
+    "bytes": 63184
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_carrots.gltf",
+    "sha256": "874ce9c535908dbc355b42c99c1b04dc8e5ba0e3b5b3c7687b21165dd09a2429",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_cheese.bin",
+    "sha256": "19e9337e9fa91d0b93ae7811650e08e2c381f5f079841ffa74895a919662af36",
+    "bytes": 50248
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_cheese.gltf",
+    "sha256": "33e677e0ed4a7b89fd1e03316827cc8160dccab6ef6e29417b2f914caff13d0f",
+    "bytes": 3043
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_ham.bin",
+    "sha256": "5cbe769bcdfc32cea94a1ce7e65e1acfdc4246085b52d3958d9099d884df7aa6",
+    "bytes": 26392
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_ham.gltf",
+    "sha256": "b053509349cb31f48cf512d387ede276b6d3a08ac50d0daec1363478b27d699e",
+    "bytes": 3030
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_lettuce.bin",
+    "sha256": "52646e26ffeff9b5ffc1e43ab04a02bc1f7be5f8fa979130d22fa6add086c208",
+    "bytes": 69416
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_lettuce.gltf",
+    "sha256": "cdc567b305563ffc9d49020e5baddfce95b26a9d76f375e5652b7671addcd5ee",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_lid.bin",
+    "sha256": "3723dbf9a7a9f2b06da7e0359bfbd0735c370d805644f5df4a961fc1ec30dc80",
+    "bytes": 12504
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_lid.gltf",
+    "sha256": "04d43a7832346bc68dc560735f8e08c446676768c9a702fda91eea7f6429e476",
+    "bytes": 2980
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_onions.bin",
+    "sha256": "44cad75a538bd9f9d3801df15df9d64ee1b37596aff9d74b72850614e1297510",
+    "bytes": 60664
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_onions.gltf",
+    "sha256": "ef56ebc45c3607301743205af71b1af7df5840fde234ae5f8cc04ae1834bc757",
+    "bytes": 3043
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_potatoes.bin",
+    "sha256": "0f77c9bdef536155f586907f3d100d373c8a62a7a017f032e5e623e604794996",
+    "bytes": 29960
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_potatoes.gltf",
+    "sha256": "4d04acf2bfebdee4d1f3585cf7e0507d50c61b729c255231271416171af564f5",
+    "bytes": 3040
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_steak.bin",
+    "sha256": "ed24e6a9db9a7e02aab5181e3743e3d9667e830e38c72951941bdd8fef808ae4",
+    "bytes": 49304
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_steak.gltf",
+    "sha256": "424a3912f732b673300ac9c76e1e7cf1bf17cb8a975784412a21829230606a53",
+    "bytes": 3041
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_tomatoes.bin",
+    "sha256": "8b5f6e2796aaf8f205e2130d571ba59bdc0c00f35059a4c457bf91228295d0fe",
+    "bytes": 81904
+  },
+  {
+    "file": "kaykit/restaurant/gltf/crate_tomatoes.gltf",
+    "sha256": "ac6f8440203300763a3381b0fac4937707096832d91267eead1647d5a2e01846",
+    "bytes": 3048
+  },
+  {
+    "file": "kaykit/restaurant/gltf/cuttingboard.bin",
+    "sha256": "5b2e7f063f3ddea8ef54e9d248cd18966d11e4a5ce4e2aa2486fc1e4ed9efb26",
+    "bytes": 2212
+  },
+  {
+    "file": "kaykit/restaurant/gltf/cuttingboard.gltf",
+    "sha256": "8e21f1d8ed779beb58dc7e159adba88a0a0317b53ce3d75e380841ff393b0072",
+    "bytes": 2966
+  },
+  {
+    "file": "kaykit/restaurant/gltf/dishrack.bin",
+    "sha256": "dcbe7a3b18e73f9bc33a2fca40d422cc1e7a82a0c384753302601239b40c7367",
+    "bytes": 13344
+  },
+  {
+    "file": "kaykit/restaurant/gltf/dishrack.gltf",
+    "sha256": "cda49e3619b21fe5cc75b5114d59cc1ab8996b48aedf2b063bcd84c09d163419",
+    "bytes": 3030
+  },
+  {
+    "file": "kaykit/restaurant/gltf/dishrack_plates.bin",
+    "sha256": "cf407f6199ece5af971d6c5200c956a14ce4d83f12ca212a1d669c5a93975595",
+    "bytes": 37920
+  },
+  {
+    "file": "kaykit/restaurant/gltf/dishrack_plates.gltf",
+    "sha256": "1b5884389ac2a771710996a9331946f29135a17ba7e7a9e494a4d451c53468dc",
+    "bytes": 3052
+  },
+  {
+    "file": "kaykit/restaurant/gltf/door_A.bin",
+    "sha256": "7db6f8465a5851c7cc38c1c41cf5845a652624f46118e2533847585d06c275b5",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/restaurant/gltf/door_A.gltf",
+    "sha256": "5bcfe533544343c0dc6e32ce96ee727b2525ca76233c2db560961bc733d78cdc",
+    "bytes": 3026
+  },
+  {
+    "file": "kaykit/restaurant/gltf/door_B.bin",
+    "sha256": "7784d66b5676999fc9e79ef85a0f95b45f942f20782c1af89c60fa725acdb0b3",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/restaurant/gltf/door_B.gltf",
+    "sha256": "b30674b5655925030aabe7520bd2fc1aa8e9d1d3318373fb5f606aa0f281fb63",
+    "bytes": 3026
+  },
+  {
+    "file": "kaykit/restaurant/gltf/extractorhood.bin",
+    "sha256": "d9a31db725f770ee6099fd3e5d84bef651c315fec104b32c87f17e13831ee319",
+    "bytes": 11912
+  },
+  {
+    "file": "kaykit/restaurant/gltf/extractorhood.gltf",
+    "sha256": "eef870be46217dcf23c6b644b3505626b302d6ff877fa0165932b65d5c4fccaa",
+    "bytes": 2967
+  },
+  {
+    "file": "kaykit/restaurant/gltf/floor_kitchen.bin",
+    "sha256": "05f3a380b290d59b75eeb000f1b476e42d92a21198850a2af79a28b3dae072f5",
+    "bytes": 3232
+  },
+  {
+    "file": "kaykit/restaurant/gltf/floor_kitchen.gltf",
+    "sha256": "a258c6bbc92264a3e163b7d1c01e6d3ccf04ef9fba98a07b0f6dcd7408250f4b",
+    "bytes": 2947
+  },
+  {
+    "file": "kaykit/restaurant/gltf/floor_kitchen_small.bin",
+    "sha256": "558ad83588578341b34d2f0a2fddbb0bf2f33493706387839df913b619f5c685",
+    "bytes": 3232
+  },
+  {
+    "file": "kaykit/restaurant/gltf/floor_kitchen_small.gltf",
+    "sha256": "1edbf77831d7ab8146a37cc4cfd81af064b623629deb665b25ebe2aa4abc1808",
+    "bytes": 2959
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_burger.bin",
+    "sha256": "449ac7849b4bfb2dac8858d8c54435bd452a6115b5c1393cb555357cc5b1c861",
+    "bytes": 62308
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_burger.gltf",
+    "sha256": "1d2f6b52ead42cb513f5ae7a71b56a98286c68035518b746857abd95ecdf28f6",
+    "bytes": 3066
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_dinner.bin",
+    "sha256": "cdab092747bd4cdafaf8966e0d510f227e7becd695d71d312a3055fdfa098e47",
+    "bytes": 44744
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_dinner.gltf",
+    "sha256": "d5882d178346c41305152ee9199d7fbee3fa8e34704292e906d13372f374a242",
+    "bytes": 3065
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun.bin",
+    "sha256": "a49d342c9dad3f2318798f7dddd72298ea3d364cc76a6440efacd46ffb473fe8",
+    "bytes": 15632
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun.gltf",
+    "sha256": "d535883d1395208132a441a264c6bb91f0fb045a4a2bac613ba599fca7ca7c06",
+    "bytes": 3071
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun_bottom.bin",
+    "sha256": "51c24200117dbdc3f853bb1385e342ddd915a3fbcdf591884b137062babed2c8",
+    "bytes": 4944
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun_bottom.gltf",
+    "sha256": "865d0f40595c36bff67c1045cfc059e8f5c9c7dd4420db1f0ab5aa505dcfbc54",
+    "bytes": 3082
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun_top.bin",
+    "sha256": "55887552ae9fcdb723dffc952bca66ccc9eb1e33d202f0f6f833ab598e5a8924",
+    "bytes": 11968
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_bun_top.gltf",
+    "sha256": "1b1c26ce5387a03e79feb37a879e6105150459095f6995689eecf6f5f69df504",
+    "bytes": 3076
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_cooked.bin",
+    "sha256": "d3fd36b8ecda288ac50c04f95045df4cff8e71dbb96894cc3efbb7b0bbffa13e",
+    "bytes": 7264
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_cooked.gltf",
+    "sha256": "7efb5080c7cd9d21c03c39f1ba767554f186abb4fb1fcac95daaeaaf914ec2b7",
+    "bytes": 3092
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_trash.bin",
+    "sha256": "da1b40551869253f751dc01a6ef9a2b455924d3f75a765385ea120c13a8e519b",
+    "bytes": 7264
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_trash.gltf",
+    "sha256": "b1ded7414dad7c1e1337cd5c2e3644551e32b9bda8db1d8fa0ad7d020ab82a57",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_uncooked.bin",
+    "sha256": "00a3325a8e73fc285260809282762bee92ac7e07230e052415736a48054f538b",
+    "bytes": 6688
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_burger_uncooked.gltf",
+    "sha256": "46f1e48ac0ca67a7c10dcdceae4d7c15db5e97cf2ce5a2e979996f59b43cda25",
+    "bytes": 3096
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot.bin",
+    "sha256": "eb86af3ba6189850e98e399ae69cc836cbba741f6a20492f84a9b1504d84c44d",
+    "bytes": 10072
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot.gltf",
+    "sha256": "8c794b3ee8326723ed7b86fec1f5df4e8784d4816140ff1df7cb816d89a6696c",
+    "bytes": 3076
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot_chopped.bin",
+    "sha256": "b177512541a687b355c8b354f94a48a7806ff6ae7d4156dbaf5c347e83d2d68d",
+    "bytes": 18276
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot_chopped.gltf",
+    "sha256": "16419d4357071e9ba2e2067ff90eeca752246c96472d0913c75b7bfb4f6be17a",
+    "bytes": 3097
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot_pieces.bin",
+    "sha256": "b17c81c1c1b82742ac153f64b8e9c0dd805690a829643a5a19401cd215802d2b",
+    "bytes": 22144
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_carrot_pieces.gltf",
+    "sha256": "cbb4c089a0af30e6b390a0cae2bec8e27970a72a2a825900aa98f369c398f1ca",
+    "bytes": 3096
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese.bin",
+    "sha256": "07af05a4bd7e1f117c30cb7367f07e5181469803b16833825bc1c843e69948fd",
+    "bytes": 10060
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese.gltf",
+    "sha256": "d229e1ab2c74629c4df80250aced5acbc69e5811d4809ba1e52569ee6c825816",
+    "bytes": 3061
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese_chopped.bin",
+    "sha256": "10cf7a02591c65bbfc0caf40678acfc42e9d7d9ca5dd937c488c90ea2e2b19e8",
+    "bytes": 9908
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese_chopped.gltf",
+    "sha256": "e9adbf73cb0cf49329b0a95e24156f614a964f4197f807591230d11717872b79",
+    "bytes": 3091
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese_slice.bin",
+    "sha256": "343ad449b9cf5a8168fc41e43d0cb359ce4b439f249c6de733727cba5483b664",
+    "bytes": 2020
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_cheese_slice.gltf",
+    "sha256": "835a0e36811df9d27f7e14caeb38a60a4a5c61eb2396a41630eda2d67c6729ff",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham.bin",
+    "sha256": "bc2c518205770c71a4a775ad53dc3579bb84b01cf572605fc32c2d9dd84425f1",
+    "bytes": 8672
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham.gltf",
+    "sha256": "4d1d9a9661a7872bdb85c52e3d9f8d7ad99fdc5cc4ea2665f0dd5c788a2fcba8",
+    "bytes": 3068
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham_cooked.bin",
+    "sha256": "31f9e1d3ec63c65fca72a315acc3a7972cb033f390e31352c8c1861e2c72d9c0",
+    "bytes": 8672
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham_cooked.gltf",
+    "sha256": "ee6657913d75a268a26a14d81651f5db1ad8b599fd42c058106a411f37536834",
+    "bytes": 3082
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham_trash.bin",
+    "sha256": "2c5f14353ba1dc6baa85f0c893622ebb49310cb1576934538ad39a22e74dad91",
+    "bytes": 8672
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_ham_trash.gltf",
+    "sha256": "ed98d76b591c02baf77c586ecec432e03445b33ede4cb67d9f7ba9ba0a6c2c8b",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce.bin",
+    "sha256": "9bcd2d629c76503367863108f771e0faca1b04a0a7a2d1b3138534c1c6928c46",
+    "bytes": 14932
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce.gltf",
+    "sha256": "ec904de2db1021eb234a1d700a4f6fe6f6ef4ab6125b9c8bae4fb6cf3bcb135d",
+    "bytes": 3193
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce_chopped.bin",
+    "sha256": "783f757c660f79b8828b6e992598a18ecbb76683ebebbb485ac97079b555433d",
+    "bytes": 15732
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce_chopped.gltf",
+    "sha256": "476b1e2b8927a1851b6da10986903867ea26ddada7777c53f61d51c579ba0b9e",
+    "bytes": 3208
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce_slice.bin",
+    "sha256": "b80221e0883fefb96a71a630b41720a77933527fc8fcb085db36abc37438ac55",
+    "bytes": 5864
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_lettuce_slice.gltf",
+    "sha256": "7bbb31a47cce17757809963022ece548000100692fbf9bf79711ffcc29c38923",
+    "bytes": 3086
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion.bin",
+    "sha256": "d7146fca7faa3f78797c852fbbbc3bda8fe1d2e0274e20f2d12d639735aec9f0",
+    "bytes": 10336
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion.gltf",
+    "sha256": "b507c3964dfa8c4f6679c104d62ebd51a99c49296c6ccd823b5b7958d21df08f",
+    "bytes": 3060
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion_chopped.bin",
+    "sha256": "29b8415216ed71b6d5abe4740f44a8998430d10d3766db47a5645cdbf7e4e35f",
+    "bytes": 25792
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion_chopped.gltf",
+    "sha256": "7595a0e14f6344b41696d0d322f7f79c43aaff76915c511940b5d669b07937e1",
+    "bytes": 3092
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion_rings.bin",
+    "sha256": "9c7844fb83955412013b43eacbcbdf161e7828eda5f45a39d38282c1c3f122d4",
+    "bytes": 14592
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_onion_rings.gltf",
+    "sha256": "840d53d0bbfd3cd30adb239f909b5f92e755eabd936b3a26ebe4611e9071bd29",
+    "bytes": 3085
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato.bin",
+    "sha256": "905ad1d4c25e9b6a4b4eb20c994f485cd3a48f72cb1ce94a34fe37ccb49dc182",
+    "bytes": 3496
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato.gltf",
+    "sha256": "978e456df24110a4ac9f7469bd24a9e65ecc5a312a0475e34cb2567ce19d8f40",
+    "bytes": 3064
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato_chopped.bin",
+    "sha256": "1603f80a6c5881107ced4a6cc6574efdc532928e97396c7e28d1c6940f4ddcd8",
+    "bytes": 9048
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato_chopped.gltf",
+    "sha256": "8e2f5a40e3da3c52d48ea31274cbd3611e91e17878022fb318763d9f4f08a012",
+    "bytes": 3090
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato_mashed.bin",
+    "sha256": "a1f535fca9d2d9a1cd6a078b57957efc11249b73fcbb15dfcf109fe3a49091a0",
+    "bytes": 1312
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_potato_mashed.gltf",
+    "sha256": "9c350c4df3f932f69dacfa18a9095ff4713aa51269d06bf21f7eaac9743fbe0d",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_steak.bin",
+    "sha256": "6196cd9e50e6c2db8fdf0472f0cf031245e898cc4fe98424cfad8b207cedb717",
+    "bytes": 13440
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_steak.gltf",
+    "sha256": "651a04027439cb47c814db3b943cc28f10f7093e74695214ba86441d212873f3",
+    "bytes": 3077
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_steak_pieces.bin",
+    "sha256": "6c8a3aae1abc8f36fac0a673de6f63a220eff2ed34f4e2e22692212abc9ab5b6",
+    "bytes": 9264
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_steak_pieces.gltf",
+    "sha256": "0bf450b3fab9b6eccaebac0b9c182b123a13f3d95039716429d1c9c17df661a5",
+    "bytes": 3083
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato.bin",
+    "sha256": "82a2319e73119c1dbb9e35eb357b205936bf6f185b9bbf1bf66b5025109925b2",
+    "bytes": 13304
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato.gltf",
+    "sha256": "563c960cbc6a7a0580a75e24e964cab4426fdeda90f602912e57be2fe568c90d",
+    "bytes": 3082
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato_slice.bin",
+    "sha256": "d82a7994c915130c94cf756970167de9d114d51b30f48257cc7a4ba457f99407",
+    "bytes": 9512
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato_slice.gltf",
+    "sha256": "060f1f9e14f0e3263a971454253cdb9042c1cd183cbf45e5c9752401f9dc0a22",
+    "bytes": 3092
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato_slices.bin",
+    "sha256": "fc9aafe5d7e7bfc08ce2df75d2601e6422d266f444c7f8815e085cc21f34f1b9",
+    "bytes": 20648
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_tomato_slices.gltf",
+    "sha256": "f32bc9cf89580a43318318474f85d61521984a7405c1baac2c49ee315e5d8965",
+    "bytes": 3097
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_vegetableburger_cooked.bin",
+    "sha256": "c91b4f7431787246f55e895b11c5ea1d6a7c8526166ade96783fb59013c5a36e",
+    "bytes": 16364
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_vegetableburger_cooked.gltf",
+    "sha256": "e90c90ec14e35d86e5181841cf59f86c2c951ab0dda8712895c6fae313602ce7",
+    "bytes": 3115
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_vegetableburger_uncooked.bin",
+    "sha256": "c87bf54f0da11e399f8898d47fb516b2bf2500771d368c354871e90a9fced7eb",
+    "bytes": 15788
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_ingredient_vegetableburger_uncooked.gltf",
+    "sha256": "6a1ffd8af79bd81d13eb0144d3fb78e0ec65a387ed3e9f8c54068880ab82e40c",
+    "bytes": 3119
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_stew.bin",
+    "sha256": "74cd8cfe414a46bc5308e93e37bb810694f752e9924ec2abcbb165874cb396eb",
+    "bytes": 22944
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_stew.gltf",
+    "sha256": "753f6b30842589c744f959f5ddb90bf07fba4aba30c5d72dc0ba300549b5bff4",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_vegetableburger.bin",
+    "sha256": "9067b1686122570a627fa1a9321a45669db1975e5c9614cfab4e1d1bddd928d1",
+    "bytes": 69388
+  },
+  {
+    "file": "kaykit/restaurant/gltf/food_vegetableburger.gltf",
+    "sha256": "0f99c5c76b49a04224342d3b38cbba7580f69a38f7f1c26c71fd4e8f3d12f878",
+    "bytes": 3085
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_A.bin",
+    "sha256": "58448d94b0c4799586344b2802fdb2c83dbdd80a350778621b0da096c7c77459",
+    "bytes": 26980
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_A.gltf",
+    "sha256": "a1835597180f9636dd23669900c1f07fd38813fc5a50685e1d4a7ac1b988ae62",
+    "bytes": 7062
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_A_decorated.bin",
+    "sha256": "01e82c05c14de76f2131c302b346bf3dbf59bd19f99154734ef48cd9450d703e",
+    "bytes": 88116
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_A_decorated.gltf",
+    "sha256": "898bc003e891572956c5eb3aa86c450b94bf66f0434d4d95ad855563b255e34e",
+    "bytes": 7125
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_B.bin",
+    "sha256": "b0ddf72a0e50233999a36f8eccc64609fe21d4d12b09371818540d5268e90925",
+    "bytes": 19324
+  },
+  {
+    "file": "kaykit/restaurant/gltf/fridge_B.gltf",
+    "sha256": "44944244748e6cba62aaee738c35a6cfea65bfbff00f0c5930550481bd8172f0",
+    "bytes": 5016
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_large.bin",
+    "sha256": "d8c85da629a0a80823720e64bc2885fd8b85783db569a333185f1e5c1534050f",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_large.gltf",
+    "sha256": "593f586c816ff1cf542a4e249da8f27c39ebc22511a75dacc692a0f4092cb60b",
+    "bytes": 3027
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_medium.bin",
+    "sha256": "83882e909ea76df52c42763c85047e1ed6d1bf6a9c5465eeb64ddc1984814cf0",
+    "bytes": 7208
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_medium.gltf",
+    "sha256": "3eadead8b5bc31a99b2ece53e1aede59638eb45191f828f7b768862547465333",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_small.bin",
+    "sha256": "cdfb773edad8d9ca4707797aac2c08c1375caef527a478e482408e829e496c42",
+    "bytes": 6976
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_A_small.gltf",
+    "sha256": "7ad38df33895d9efbe0fee65df87f7920f75abf403ccbbabc116f70f2dfc225b",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_large.bin",
+    "sha256": "fd1c7564c5de2cf62e0073d875ae6e2f5be8bcc3c988d788fbb22f22320a0561",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_large.gltf",
+    "sha256": "831ca922b891c0efabec644c6d5f03592f519adda86bf5ebebdbfc9b3443574d",
+    "bytes": 3027
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_medium.bin",
+    "sha256": "195369a3f5589cb5e50fa41c1070d753f11e4034ca34bbe45260be67569431c3",
+    "bytes": 7208
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_medium.gltf",
+    "sha256": "c730924b7b6ea11613b236c3bf5225343ae8c89c969cd721b50111402f0f9c6a",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_small.bin",
+    "sha256": "a34b6dabb7059a24ebaf31da87a3431c7c907e9f04f8aec58c39b7cd0cb79682",
+    "bytes": 6976
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_B_small.gltf",
+    "sha256": "fc75158c9904e5b3f6fa45a27f51f839388ea3419a2a3fc2efcc3ff3efe3c539",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_large.bin",
+    "sha256": "266f5928d20ea1c79f7f879b615bc25239cc60d7ab6471e4c22fa5ba57cfb3c9",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_large.gltf",
+    "sha256": "bd4f4899ad27d751ffe59d8b0664043a85956d40fe5ee3275995b88948bc604a",
+    "bytes": 3027
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_medium.bin",
+    "sha256": "5b65519d559eb16e94ef0c6f5356ba57cfa3865f9f8852a4bbccedef0da16970",
+    "bytes": 7208
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_medium.gltf",
+    "sha256": "86c55c5d8173481d508b9153a1dbe791c1987f9681803eaca7523bc3252aa577",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_small.bin",
+    "sha256": "863cfbb0041a93d7286160a9ab8d1f22f6d555a58df7e8029ed0fa5620dbe7e0",
+    "bytes": 6976
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_C_small.gltf",
+    "sha256": "e098bf6baddf81dd3bbdfc24f7268b5f3b90831b0ee87c01ad66d767fed54b5e",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_large.bin",
+    "sha256": "5b21bb13531811d8c18fa93e5a42057cd6e79588e1d74d7e1f1d1aa9eefeb6ec",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_large.gltf",
+    "sha256": "4ef3ed47bb21c1c7bea9cd631a8c2207d9e6023a17d04d4a64b863baac60bf89",
+    "bytes": 3027
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_medium.bin",
+    "sha256": "47789bccc8f5df70f5a59c9a86c0a55815a8ef8423e1d501a01d6c7668c9b56f",
+    "bytes": 7208
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_medium.gltf",
+    "sha256": "bc542bfc44f64f16cb2bd3032f760aff9da2888a931db84c9521817807ec1370",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_small.bin",
+    "sha256": "d048d0f70c2e8eb4b311eb66af4825ef16349b0c80037b2cddb71a10fd3326a7",
+    "bytes": 6976
+  },
+  {
+    "file": "kaykit/restaurant/gltf/jar_D_small.gltf",
+    "sha256": "c8b230a26b272d4b5a7169e00c5e3ae99221b9909c13d91d2d8369a0cabd6da7",
+    "bytes": 3056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/ketchup.bin",
+    "sha256": "d6c747356caaf2dea8058a8568463499d5130c82505f3cecea5e119a3a972bd5",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/ketchup.gltf",
+    "sha256": "85418b12838767b9368a328c34008324c7cea7ca1a2aac2a6acf98185cf49462",
+    "bytes": 3030
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet.bin",
+    "sha256": "a25d0ba886e4bf558ea4afc636f1b62cbd0e45ee4c6a7cc3e488022f98dfc136",
+    "bytes": 7400
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet.gltf",
+    "sha256": "73969db052be1f37717012874f43c2dace7e011bf9b59179d8e0d3a40f5c24c1",
+    "bytes": 2965
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_corner.bin",
+    "sha256": "c554ab6a0db2ddc6f1b4004dedf06c45937398533b7690299261578d20fb39f5",
+    "bytes": 8392
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_corner.gltf",
+    "sha256": "25d13aac0312bfd7b2e58efa98e27e982e74947fed9d547dde4b371e33ef80c8",
+    "bytes": 2964
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_corner_half.bin",
+    "sha256": "944a717268b8ef13b831414abcfc6d2f2abecf077bb109c83246de4b988441dd",
+    "bytes": 8520
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_corner_half.gltf",
+    "sha256": "e761cdfb855a8dc00ffbae1ff7410ab62a43ccdd5ee857d6f9f242b6235cef1e",
+    "bytes": 2974
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_half.bin",
+    "sha256": "b4360cc622b3d39df2629884260aeb86dd55853f644a724371be2fb2f10de21b",
+    "bytes": 7400
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencabinet_half.gltf",
+    "sha256": "1000cd315df2e44ed86f2a91b82c7cf6a23fc511168bc446576113b4162b0bd8",
+    "bytes": 2975
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_innercorner.bin",
+    "sha256": "775b5c27152bf35d9bd139a9a07ad1c23bb97dab210143a7b057160d14821890",
+    "bytes": 2404
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_innercorner.gltf",
+    "sha256": "47866ba0bf7568a5b66b2f71bb39bd9523dd3711f32f022e4ab796a36253eb95",
+    "bytes": 2967
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_innercorner_backsplash.bin",
+    "sha256": "61cf3423b58e30653df2bee7a17dc0620511a0c5c3d1abed98bd631da001bfd4",
+    "bytes": 3376
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_innercorner_backsplash.gltf",
+    "sha256": "4c10f576e985cf7d86a87a4e2ee3010b99069a526559182ed2f2a421cf54fcda",
+    "bytes": 3009
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_outercorner.bin",
+    "sha256": "59cfbaf5cf1f62d87976535115f272fcece466d6bad2f104a6e7a29f35b63a1e",
+    "bytes": 2404
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_outercorner.gltf",
+    "sha256": "1e4ae270976f26ec4ab757770645528ed00f263dd9650efed6e7c23ec3cd8060",
+    "bytes": 2984
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_outercorner_backsplash.bin",
+    "sha256": "83d62af17d150fb9e8d8d3c22baeeb0a9f25ac15dc7aec60e53ccf4dab9e90a8",
+    "bytes": 3376
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_outercorner_backsplash.gltf",
+    "sha256": "8ef1a48e24255934de1aa3febceb69146e309a8ebefeabd8ff75b83e3d5a6cab",
+    "bytes": 3026
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_sink.bin",
+    "sha256": "a0d0ca0667dedccea5af25a4b69c272a4dfdff2b45dc99f3bfe95f512072630f",
+    "bytes": 29228
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_sink.gltf",
+    "sha256": "41e576c8211cd3e6a33d8622e195b583795b47c671f13bf636e344f037d0f56c",
+    "bytes": 3000
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_sink_backsplash.bin",
+    "sha256": "e49067bb91f2e55bb9dfe3f787763bec3e6d081bac72aca64560933d598549bc",
+    "bytes": 29908
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_sink_backsplash.gltf",
+    "sha256": "574fe697303f22694dc003ff3be538713ce45899fed8fd29d049b7265ccfdb73",
+    "bytes": 3020
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A.bin",
+    "sha256": "78e3e82538faf0f03d0799b7980f006f1fe7a45ab7c64ae401d66dee576ebb19",
+    "bytes": 8400
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A.gltf",
+    "sha256": "500afffa4c87a579a046b67f10c8b2b7907a3dd0983544643c581b95153d6008",
+    "bytes": 2989
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A_backsplash.bin",
+    "sha256": "983b35ec19de0760e90225a7b675ea262a3842ab32cf089413a588039fddce1d",
+    "bytes": 9048
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A_backsplash.gltf",
+    "sha256": "d123476df9136b87197e8a2c4eaff725f6c3fc761c732cb6c0e09ec37fce2fd0",
+    "bytes": 3028
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A_decorated.bin",
+    "sha256": "e8246070033bed592f2bcf4a75dcb93225d7c3c9d6626577fb46f4c16d8df938",
+    "bytes": 63456
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_A_decorated.gltf",
+    "sha256": "0ba812fdb11256a1a2581a0e55f124023ce726861aa341270400ab49a04dc12f",
+    "bytes": 3055
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_B.bin",
+    "sha256": "764bb6b8adc0db05bcff00a665675d3fd0f9ea8344f605b017ade006a335f4f0",
+    "bytes": 8048
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_B.gltf",
+    "sha256": "4b5c4f5e6291f0dad714a6101ca6d3d9cd02e4d5b92ae4ad6b908a7bca5bce46",
+    "bytes": 2989
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_B_backsplash.bin",
+    "sha256": "741d71a21cf0ccee0025bdfb0cd642298bf66a75b88d7ac2aaaca4f8db33d81e",
+    "bytes": 8696
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_B_backsplash.gltf",
+    "sha256": "f8595f7eff5eb6ec5544fbd88dd7aebd46dd0239909817c74b5b6b2f88894b17",
+    "bytes": 3028
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_decorated.bin",
+    "sha256": "fb61b9522d2274562f3060a1b8ff1a0eb5e082eb65f27cbbf1e8f831dfc10fb0",
+    "bytes": 37012
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchencounter_straight_decorated.gltf",
+    "sha256": "a67729f13c37ddf6db114d588e6199c1c843f7a2921ff95dc32bfba75cc81e59",
+    "bytes": 3029
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A.bin",
+    "sha256": "fc3669ecd8395b01661f2f44b68a07acc960f6026ef46b033d31acfd7782f162",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A.gltf",
+    "sha256": "cbd7b5f1d3c093307840ecdc72b62ff1eb6d966bbda2ca49a16786ae83d79734",
+    "bytes": 2974
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A_large.bin",
+    "sha256": "b6eb89d970f8adf945fba884a1c060f759cb3fdfebd1b128637c50acbea48b20",
+    "bytes": 11688
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A_large.gltf",
+    "sha256": "dbc7503d534b779eaf2ea0c5bbac233359f8b0ff0fcff73cbbeb688f036d939e",
+    "bytes": 2990
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A_large_decorated.bin",
+    "sha256": "fd1e10e8449b16663c68d753adfa3a70613172fb1f78301ed8a0b421c0dfb4ae",
+    "bytes": 77800
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_A_large_decorated.gltf",
+    "sha256": "c1b78de110e0a460dbe20622bd53a8125c919b4c9d8feb9627c315720425f469",
+    "bytes": 3037
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_B.bin",
+    "sha256": "6809bfa32117228f5aa5661b557d7bc0e83984309ac6937d788a5134ebac2d0b",
+    "bytes": 11752
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_B.gltf",
+    "sha256": "36b6e8244ef3351fd940c3f2a080fe27f2c59a69b9fbc44d3ea1b2f60ccb6ebe",
+    "bytes": 2974
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_B_large.bin",
+    "sha256": "87a438994655418b9685897ac9d1a26d5122784816cb197edd543e88131a1661",
+    "bytes": 11688
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_B_large.gltf",
+    "sha256": "4951b7ff3a7764a03b1188a0e9e836cefff5e17c2f10cb90cde9e70200ebb15c",
+    "bytes": 2990
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink.bin",
+    "sha256": "c4a8f52959322cfb0980bee9dbd5a078157b9b9246abefe01e34691ebfdb2d3b",
+    "bytes": 32580
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink.gltf",
+    "sha256": "647338eeda6099e6f6203a7a5b33c8b6e707d8485516ac5c7f43560680135d0a",
+    "bytes": 3002
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink_large.bin",
+    "sha256": "04c5be4bdd9a54495a78bb25c7a34d620d6963cce107fb20d420afc9cf36c220",
+    "bytes": 38452
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink_large.gltf",
+    "sha256": "fb1b3442804364120ad4f79a5e63dd8469e46d1e17a9006df28859fb5fa9894a",
+    "bytes": 3000
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink_large_decorated.bin",
+    "sha256": "9e20e8fe70b1b3d03f4b3794a380aacec7901a0b0bfa430d8ba970a52d213db5",
+    "bytes": 105776
+  },
+  {
+    "file": "kaykit/restaurant/gltf/kitchentable_sink_large_decorated.gltf",
+    "sha256": "2beb49844c6061f792a35aac9efd5bae87f7461af04125768e3c5ebb228ea311",
+    "bytes": 3023
+  },
+  {
+    "file": "kaykit/restaurant/gltf/knife.bin",
+    "sha256": "6aedd2b31bb2162725ce1a58e3e7ee4d909fc9bebeeb28dc2447243e5f8bbc20",
+    "bytes": 4560
+  },
+  {
+    "file": "kaykit/restaurant/gltf/knife.gltf",
+    "sha256": "5e2b8210e96da58603f7a03460243d3eafe5123942a0a3feaf9730092bc43022",
+    "bytes": 3039
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_A.bin",
+    "sha256": "7b938218aabfd0f42780a7ef55745ad392908511c6f9501089c58b338afe8d07",
+    "bytes": 7184
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_A.gltf",
+    "sha256": "a862c0220ccfbf1faafca3fd0aec848c3e4b036da9c5c039a8d08c1db0372f20",
+    "bytes": 2984
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_B.bin",
+    "sha256": "6f5330bc94f12fff2c38b6c4c6837c39b249a44f356f40ac3bc1e73d8bdde152",
+    "bytes": 7184
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_B.gltf",
+    "sha256": "773dd29c864929f1e8e85c285814a04135e7767e33f3bf763bf477870ba3a96e",
+    "bytes": 2984
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_large.bin",
+    "sha256": "d3d401c3fb7bcf34e2342693906571b25793ba158eca36f2d61ea9c6b95751ed",
+    "bytes": 7056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/lid_large.gltf",
+    "sha256": "0b0ff0f9c14fc0fc5c18266c93d96949b70de435e6399bc3dd6eacb8abc028ce",
+    "bytes": 3023
+  },
+  {
+    "file": "kaykit/restaurant/gltf/menu.bin",
+    "sha256": "56bee60b3e949e829f4801d9c01dae2706d9a3f36d326b336881c9ec21cc5650",
+    "bytes": 5448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/menu.gltf",
+    "sha256": "8f71400aa63c18c893dc85144e5ea5fa4f152525510548d68e0f6f5f5d3966fb",
+    "bytes": 2990
+  },
+  {
+    "file": "kaykit/restaurant/gltf/mustard.bin",
+    "sha256": "7374684f5ae90412152930383fadcbcdae693cca79dfea46f15371341be5f5df",
+    "bytes": 6448
+  },
+  {
+    "file": "kaykit/restaurant/gltf/mustard.gltf",
+    "sha256": "64662efd398e1b7dfcc54defa5801ca1493b9682287b78b67729ae441cb65899",
+    "bytes": 3030
+  },
+  {
+    "file": "kaykit/restaurant/gltf/oven.bin",
+    "sha256": "974435f9fe0148975c972baef5ca8cc928858baff4ebe71e362cf171ebd1d9fe",
+    "bytes": 34580
+  },
+  {
+    "file": "kaykit/restaurant/gltf/oven.gltf",
+    "sha256": "bec7709fbf8d2e92269ce5efc4f564769216966720eee35febadcf6f0f42a35a",
+    "bytes": 5058
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_006.bin",
+    "sha256": "6f84a20b9043630bec1fbf367e8d5ff68a265e76dc44719af527e336cd31c5e2",
+    "bytes": 10884
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_006.gltf",
+    "sha256": "875bf1e61b6fa19d366df5ef65a3792c84a5a5a278f0952b22bd6ce7efec4bc6",
+    "bytes": 2988
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_A.bin",
+    "sha256": "b37ea391f9aeaf17a73dc951c7401460edd33fcfbeef0e9f6c07a7abb666e186",
+    "bytes": 11108
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_A.gltf",
+    "sha256": "565176e530c59893cb2080c6d18becd4c963e55edb1748c80cdab942d82e4da1",
+    "bytes": 2947
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_B.bin",
+    "sha256": "292e02e35e3ac90510d27227997568ae28a8d8a50e9505fda0215b6c07f9356a",
+    "bytes": 11108
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pan_B.gltf",
+    "sha256": "5f58e35bb71e8e86f85b24070d222a4c0fefdf4de145d0729e0442ccb81fcb04",
+    "bytes": 2947
+  },
+  {
+    "file": "kaykit/restaurant/gltf/papertowel.bin",
+    "sha256": "0f2f650d63f20b75a594c359a43419b539ca654ea9e1663b167dc8eb629f8510",
+    "bytes": 8536
+  },
+  {
+    "file": "kaykit/restaurant/gltf/papertowel.gltf",
+    "sha256": "9338e202654e1100c14f72ae2726a502231f5729ce3be72932f56aaaae1fa7ce",
+    "bytes": 2995
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pillar_A.bin",
+    "sha256": "58b2598af50e06eedbddb3b74d9363b5af5ed2d13437619f31bb9b25e55840b5",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pillar_A.gltf",
+    "sha256": "8995e350d2f1af56d3007287bcd1782b27ce3be7e2188414aca73d1be14bb7ba",
+    "bytes": 3022
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pillar_B.bin",
+    "sha256": "04a2fe2e286f54324d6cd85461e55c40c3e4b97e4dbcf0b7d8d1ca6ca31618f3",
+    "bytes": 3080
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pillar_B.gltf",
+    "sha256": "654b8e88b69de33675341091a00ae5dcf59e483ffee392811f5e92b34d6b6bb0",
+    "bytes": 2958
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate.bin",
+    "sha256": "8dfa3b0c2987686238b936608c722df1616bb954e1908b37113b9d6770101006",
+    "bytes": 6144
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate.gltf",
+    "sha256": "ba3fce191452ccc3a54351a2969a5942958ced0b3c1e6e005692c946642e58de",
+    "bytes": 3043
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate_dirty.bin",
+    "sha256": "0e63c2a9040a67b72163c646b4f42545bb4ccb801e2b683b142d1677748e68f5",
+    "bytes": 11108
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate_dirty.gltf",
+    "sha256": "a42bb46c8cfd36351332f9e167091cebf5c43f42e3b80bdc367260cbb877d982",
+    "bytes": 3057
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate_small.bin",
+    "sha256": "51537dca557cb31787e253153d2b85e9d75966fa9ef2773aca9c4199b210db67",
+    "bytes": 4624
+  },
+  {
+    "file": "kaykit/restaurant/gltf/plate_small.gltf",
+    "sha256": "6173beca2f424b7a11b399c4ed38699877a787149a9a1492f07394a6b9698c63",
+    "bytes": 3015
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_A.bin",
+    "sha256": "1a60075faf796fae6897bb4c97e09d326bb755a6d16369658994332cc582404d",
+    "bytes": 13016
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_A.gltf",
+    "sha256": "3dc03eff7a73860aa61f41d49d118811c75ca74113ce49f27446a8f99040df1c",
+    "bytes": 2977
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_A_stew.bin",
+    "sha256": "f7e08f04a8263c871a8a27e585dcfddddd35d11675e4daeebffdf8e7665e0945",
+    "bytes": 27064
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_A_stew.gltf",
+    "sha256": "8e03dd8aabb7c1c7bad1770fcd154661b9ac0382e548df610ea1d624942c713b",
+    "bytes": 3004
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_B.bin",
+    "sha256": "c0d2b3fc9d509cd2f01936aafd5edf90d34ac97b7a29b965905737298b470c17",
+    "bytes": 13016
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_B.gltf",
+    "sha256": "0e0df6ecf518efc8af0e712328ff3c3619ca9965cda1539027b8cf0d14b4d2f4",
+    "bytes": 2977
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_B_stew.bin",
+    "sha256": "b9574718fe113b19c840fc1ed6526a7a4b74438609901762ef6fc915bbf7e125",
+    "bytes": 27064
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_B_stew.gltf",
+    "sha256": "0b3124f8b0a3f25bb7eb04709870d984b7036a5a5535dc7dabc124a345df46ee",
+    "bytes": 3004
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_large.bin",
+    "sha256": "e35e7577dd6b855a55051b2cd8f0b1a1cd489dff2f31fce61ffcdc6eb9e22c62",
+    "bytes": 16760
+  },
+  {
+    "file": "kaykit/restaurant/gltf/pot_large.gltf",
+    "sha256": "5289242fc02b708cfd2ef8318cf2bf5a3ee6c06263d636e75350960fa8d4f4b9",
+    "bytes": 2985
+  },
+  {
+    "file": "kaykit/restaurant/gltf/restaurantbits_texture.png",
+    "sha256": "1bfff8f880c5e5e1b793bc46fa1f91149b7f70766174a817b3d5962495c5e40f",
+    "bytes": 21070
+  },
+  {
+    "file": "kaykit/restaurant/gltf/shelf_papertowel.bin",
+    "sha256": "54d5759c0bb43dd2a35d48c177fd1889161752d1344d6a3dd32919470abe2927",
+    "bytes": 14184
+  },
+  {
+    "file": "kaykit/restaurant/gltf/shelf_papertowel.gltf",
+    "sha256": "1a957220b5da4267672432fbf2d65403e8d6265fc41a83a74f127b69d4808f1d",
+    "bytes": 3009
+  },
+  {
+    "file": "kaykit/restaurant/gltf/shelf_papertowel_decorated.bin",
+    "sha256": "2039a0d69564558dac136c80d62d54977b51226e5e46b500d0ecd9673ea73eaf",
+    "bytes": 34816
+  },
+  {
+    "file": "kaykit/restaurant/gltf/shelf_papertowel_decorated.gltf",
+    "sha256": "6ab95c81a8bb3f295d1411ae0ffdb3588f7633c9bda8847eb27b56336f718888",
+    "bytes": 3032
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stew_bowl.bin",
+    "sha256": "164b0c1a17eb985f8fd0270a6ba12279a93648ec8298a0cb486e079c50c2ceae",
+    "bytes": 14688
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stew_bowl.gltf",
+    "sha256": "72f77353d1ac4fcac8e21b5480fe1666544b8399590ce5a337b31e9fbc2be338",
+    "bytes": 3051
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stew_pot.bin",
+    "sha256": "f5201cea5ac83687c2df57192e6166b7cda020b5c30edd28be85d20b78c27875",
+    "bytes": 14688
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stew_pot.gltf",
+    "sha256": "a8cb68c28917a23bc06f1f1c0773bec00966e7029272e355518bd004ce9d77dc",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi.bin",
+    "sha256": "d1f2211797b53f491a4e3020602f9761c6207fc30b681fdf464c7e0e89b58893",
+    "bytes": 54696
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi.gltf",
+    "sha256": "5b197d1dc28b2c4d0e4bf70446451d63e079da9d768835ad6897f41c711c18f9",
+    "bytes": 3006
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi_countertop.bin",
+    "sha256": "4d9f82dab1fd0ddb64fae55f09f5e0319e703f354a4f614e8571a1d91831b718",
+    "bytes": 35672
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi_countertop.gltf",
+    "sha256": "200b03cf02e0916e0295bd4fbdc8f7674f49f7dc524241b072a2c72ce33092a5",
+    "bytes": 3075
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi_decorated.bin",
+    "sha256": "9350340cc14df8542c98d626c80a2235632786e92c3599846bdcdd67324dcf4c",
+    "bytes": 103188
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_multi_decorated.gltf",
+    "sha256": "49c88b7a386d2216ed07232ec793f2dae6584d75e482b4a459f1e2f50cfc1785",
+    "bytes": 3046
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_single.bin",
+    "sha256": "a388f9f1668f7deec37dedf9b45113e593a4f0876d25454d9c22decd0edbaf28",
+    "bytes": 36368
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_single.gltf",
+    "sha256": "cce0730ec2025399a68cb6afaa8acb2f54fcb3d70537a26f62564f6f7754f679",
+    "bytes": 3008
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_single_countertop.bin",
+    "sha256": "0cafb9935eaafd297ff5c330f5040677aef5983c395ce97f0346c47fbf63f1ca",
+    "bytes": 17728
+  },
+  {
+    "file": "kaykit/restaurant/gltf/stove_single_countertop.gltf",
+    "sha256": "c61f074d372a0194b570cfb6762e97d08638285deaa98a510d44f0da5e44dfac",
+    "bytes": 3073
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A.bin",
+    "sha256": "d6122d1b2b5c5b7348f033b97e6cac7f897dd0978a4b7a9c383d2f15a02a5844",
+    "bytes": 12528
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A.gltf",
+    "sha256": "20a3b1b8d1cf6cad642f3f9590667bb9b7fa3c318dd603604280a3254be5cf33",
+    "bytes": 3001
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_decorated.bin",
+    "sha256": "6c095e9fc82a138da8809cbe97f11c129b811b6c613553d4e3e5ef5410d7e1d8",
+    "bytes": 172612
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_decorated.gltf",
+    "sha256": "4e1e3a78f39eedd74cb274d77e35c1582324aab81aeef0bf74cd43c5d51a430d",
+    "bytes": 3034
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_small.bin",
+    "sha256": "8f39b021b1153eb22653a20103e3308bcc8fb7d3c53439c53d6f0e20331f51c4",
+    "bytes": 12528
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_small.gltf",
+    "sha256": "eba53971817c536c8df8b69dd41e1f320cf16c450a2f3141ac92bc0eb5213996",
+    "bytes": 3017
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_small_decorated.bin",
+    "sha256": "0bb14d0b133e9bc093d76c390ef0ee360a0ee902fa008965c062dfa60dbd3f54",
+    "bytes": 30936
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_A_small_decorated.gltf",
+    "sha256": "e7ec4792ff25dd495aa9ccc485b771a762f1aa052382a973b8253ddc82b91199",
+    "bytes": 3039
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_B.bin",
+    "sha256": "d9bfae3989c723043dec87d9ccce107b3a5cb398ab824b8337d357003f861e74",
+    "bytes": 13000
+  },
+  {
+    "file": "kaykit/restaurant/gltf/table_round_B.gltf",
+    "sha256": "5f3203b0661b4cd0294580d6e671066eb1cc75b40096b8383e0159aef9db741c",
+    "bytes": 3000
+  },
+  {
+    "file": "kaykit/restaurant/gltf/towelrail.bin",
+    "sha256": "612423f3d557ecc6333acdf1a489618ad8b48d39aa6f1952549375091988b120",
+    "bytes": 8056
+  },
+  {
+    "file": "kaykit/restaurant/gltf/towelrail.gltf",
+    "sha256": "33dbdc1e08863fc41e1dbda7eaafe660c0ca77a76af9533a6807fc52b5df70bb",
+    "bytes": 3041
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall.bin",
+    "sha256": "7bb2ea4be9038077a77d1ef2295c292072b9e5bf1815c11b11c33c0c6fc9940c",
+    "bytes": 5320
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall.gltf",
+    "sha256": "f50162af946c236fce27f3f561d9d4ab01b0f31fd033a4694f2969e34b992f42",
+    "bytes": 2983
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_decorated.bin",
+    "sha256": "571f26ae44bc8d447a812565f1f8879c67a202224576e51d96a63f6044569993",
+    "bytes": 173328
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_decorated.gltf",
+    "sha256": "e289ddbc890aca0de4b73a72d2368430fc110a98065bbdf3c02a4d92a2fa7654",
+    "bytes": 3017
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_doorway.bin",
+    "sha256": "8190f781ad58e006d1ddfdf065476302e2004765b0b351e001d782a6adfed060",
+    "bytes": 10316
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_doorway.gltf",
+    "sha256": "85e91a96f9a010bd0680342453a16ee1d94f1dfa7858d4cd99f5047cd01a74c6",
+    "bytes": 3000
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_half.bin",
+    "sha256": "7e94696837da0feb559e56147df256c2eb0d08d84eee966cf1172aa205f31fd8",
+    "bytes": 5320
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_half.gltf",
+    "sha256": "0ab40c9cc406e441382039f2f53736889ed92f2b316f325f6f54603d6d46011c",
+    "bytes": 2996
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_orderwindow.bin",
+    "sha256": "08a03caa05d8aba4a601a3e6077eac04931df4c1f093b0ed8fd431b3836a18d2",
+    "bytes": 12116
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_orderwindow.gltf",
+    "sha256": "8513b09ef5e24ef63c52bd831ae53bd4bcef5c93ee8d5d73fd10431f8f17abeb",
+    "bytes": 3026
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_orderwindow_decorated.bin",
+    "sha256": "568bfab69b4e8ddee5112cc4899ad72d16661009d3a801f72d3e0ab5a9238b06",
+    "bytes": 30396
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_orderwindow_decorated.gltf",
+    "sha256": "0daaaaea542d6829284297d87a83e47f229d590d03903eb61ee99382d37c3b14",
+    "bytes": 3048
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_window_closed.bin",
+    "sha256": "2ad9032f37bc64006d5c3a4215726fda79f16845af460f966df4a70eadca3739",
+    "bytes": 11672
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_window_closed.gltf",
+    "sha256": "d8fde64df278efcdb23bb3e87408efc92c3a90fc08bbb7a410900aa85d9a39a1",
+    "bytes": 3014
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_window_open.bin",
+    "sha256": "2e2712c4761cb20de81bac2b6c7bac4cbfd4da2c00beb28427898c40b3f6b682",
+    "bytes": 11392
+  },
+  {
+    "file": "kaykit/restaurant/gltf/wall_window_open.gltf",
+    "sha256": "2c1e209505ca0d7538a369a2ef00d39c5095cb7ca31a04ddc4a9504e355e4d66",
+    "bytes": 3010
+  },
+  {
+    "file": "kaykit/sources.json",
+    "sha256": "fb0b1de481280cbc09a655368aaa67b6558de76b79f59265aa7067a2c59a5e75",
+    "bytes": 1252
+  },
+  {
+    "file": "spa/arch.glb",
+    "sha256": "a8462091a04edc55b57e527689fc60dbf3ff9f1bb3f219e8ac3acdd57c1b2512",
+    "bytes": 27500
+  },
+  {
+    "file": "spa/bathroom.glb",
+    "sha256": "a20f16cf3352fcc5a8522dd7df7e90a593b77264f16054efbf6c5601b4fef4c9",
+    "bytes": 475324
+  },
+  {
+    "file": "spa/cafe_shell.glb",
+    "sha256": "4964c936df1bd84dab8565884e46d878252b62cbfe9a11ea081e0b730d6f139c",
+    "bytes": 39884
+  },
+  {
+    "file": "spa/changing.glb",
+    "sha256": "e5b125486d1378356bf9239765b23b8e5e382649f22974e9227bd473ec4987c3",
+    "bytes": 516116
+  },
+  {
+    "file": "spa/floor_garden.glb",
+    "sha256": "8c34452d8dddc12c357b53f1c34104435286a21c5c17e3dfef80fb354e1b8806",
+    "bytes": 6500
+  },
+  {
+    "file": "spa/floor_stone.glb",
+    "sha256": "8bf36f57a8389601a20cc61f9a2afab440dea6104f1a7988e344407aae0fed61",
+    "bytes": 6476
+  },
+  {
+    "file": "spa/floor_wood.glb",
+    "sha256": "d73cc8707e3ceb106d7d446b523b4c4ce6352a459f8ea20383765e7114073f9a",
+    "bytes": 10568
+  },
+  {
+    "file": "spa/fountain.glb",
+    "sha256": "8bd741b6aedae7bd11e8b9a63245a85d8a274d10a8b863a7e87f9978ae9651e6",
+    "bytes": 51544
+  },
+  {
+    "file": "spa/hot_tub.glb",
+    "sha256": "d99a2d371075d388201b5d6a0025314fa225a5f5066d84adabee01c570d506a5",
+    "bytes": 144488
+  },
+  {
+    "file": "spa/ice_bucket.glb",
+    "sha256": "6cd95cdab8af8debecb392fb89bae157f35dc40897c8a438456d989703e8c072",
+    "bytes": 65024
+  },
+  {
+    "file": "spa/island.glb",
+    "sha256": "2b6dbe18ba13494ca9085d42b74bee48184faeb171dee5a86054bf3c9a566475",
+    "bytes": 11432
+  },
+  {
+    "file": "spa/lounger.glb",
+    "sha256": "8e5f2b33de401d968e122412735f49534b7f0df7d87b70dc525f4148ff150980",
+    "bytes": 40988
+  },
+  {
+    "file": "spa/low_wall.glb",
+    "sha256": "a83bb8d814fb9701e2e4aba254135fe43aa48981ad0f0f1e48f8f558ea292c2d",
+    "bytes": 12684
+  },
+  {
+    "file": "spa/mineral_pool.glb",
+    "sha256": "6d4cee7785786887c4b1ab45c8cef9680844f8e6385f654d4529782494580c90",
+    "bytes": 86500
+  },
+  {
+    "file": "spa/palm.glb",
+    "sha256": "a2d6d8ec5d0bef58e268c63cb6109b34d2c5f48ac49e8defc3189c74e61f5119",
+    "bytes": 78468
+  },
+  {
+    "file": "spa/pavilion.glb",
+    "sha256": "837245524766caa72cf98e64ed3b9af34c18ae426be4e74fdb5b7e1f56a72b5b",
+    "bytes": 461404
+  },
+  {
+    "file": "spa/planter.glb",
+    "sha256": "fafbc930bc2ffaef3aa303d048676a44e17aa12da90bbc95dd25540772a7569f",
+    "bytes": 293720
+  },
+  {
+    "file": "spa/plunge.glb",
+    "sha256": "e583adf759a15752a58ba1d4c5de43009a2940f67c679ca16310b00295a35a0e",
+    "bytes": 86508
+  },
+  {
+    "file": "spa/potted_tree.glb",
+    "sha256": "2ec982b7cc1c096372da4d9f72b1d574ef1f1e392c4938f058bab548ad5835e2",
+    "bytes": 100072
+  },
+  {
+    "file": "spa/private_bath.glb",
+    "sha256": "a60f91722b7f2f16f45719ded488830cae92d3a6b99e44848345ce0f46f7386d",
+    "bytes": 85376
+  },
+  {
+    "file": "spa/reception.glb",
+    "sha256": "a52e38f356b193f551237c7f52d926fc2d79c6f392e7753131457a5ee905f93d",
+    "bytes": 99808
+  },
+  {
+    "file": "spa/relaxation.glb",
+    "sha256": "2fdd9116c40ecfdb0203543695f3fee7d4685e86a7eb488afc59b6b828ca831a",
+    "bytes": 474088
+  },
+  {
+    "file": "spa/rock.glb",
+    "sha256": "7385d555134ff2da0b82ecc131d5d4f14175ca27ffdc7d296df9ddd869872500",
+    "bytes": 7384
+  },
+  {
+    "file": "spa/sauna.glb",
+    "sha256": "f9e88da45ad07ba0a6c0076b37bfb250bfff9cb1228220e657597230e86b74fd",
+    "bytes": 605676
+  },
+  {
+    "file": "spa/shower.glb",
+    "sha256": "9daeb0eda38563e13cd6ec500a2879ab2104f91027bff10eb7ce6a2e957db965",
+    "bytes": 53012
+  },
+  {
+    "file": "spa/steam_room.glb",
+    "sha256": "2c8ab2027b6d12b61317d60abb658fe27a70b895b9a32c7d9918a3346c773e5b",
+    "bytes": 504936
+  },
+  {
+    "file": "spa/stone_bath.glb",
+    "sha256": "30f716d70967fef9b031a758f1650f9f3bdb9912ce516b8848be98a277c7adb6",
+    "bytes": 86340
+  },
+  {
+    "file": "spa/wall.glb",
+    "sha256": "6bd9d94164018bfb1a9cee140b023f80cf0ee3a03772937550cab83dad57624e",
+    "bytes": 12696
+  }
+]

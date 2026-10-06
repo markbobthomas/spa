@@ -1,89 +1,57 @@
 # Stillwater
 
-A tranquil spa-building sandbox presented as a miniature island resort. Painting pavilion tiles creates connected arched facades, curved tiled roofs, window boxes, dormers, and chimneys. Courtyard tiles make open limestone terraces. The shoreline and surrounding gardens grow with the layout. Domed steam houses, roofed baths, timber pergolas, rounded tree crowns, warm plaster, and teal and terracotta roofs give the spa a cohesive isometric style.
+A fresh spa-building sandbox built with **Godot 4.6.3**, its native 3D scene system, Compatibility renderer, imported glTF assets, skeletal animation, and browser export. The art uses Kay Lousberg’s **KayKit** CC0 furniture, restaurant props, scenery and characters, with a matching, authored Blender spa fixture kit. Warm timber, limestone, linen, sage roofs, rounded silhouettes and quiet green water carry through the entire world.
 
-The renderer uses **Babylon.js 9.29**, a full browser game engine, with an orthographic camera for the isometric view. Native glTF loading brings in authored leather seating and velvet chairs with texture, normal, wood, and fabric sheen materials. Blender-baked olives and palms have curved individual leaves, branches, and ceramic pots. The architectural kit adds thousands of curved clay roof tiles as actual instanced geometry, together with domed baths, plaster archways, tiled pools, and gardens.
+**[Play on the website](https://markbobthomas.github.io/spa/)** · [Download](https://markbobthomas.github.io/spa/download.html) · [Credits](https://markbobthomas.github.io/spa/credits.html)
 
-Babylon handles HDR environment lighting, physically based materials, contact-hardening shadows, screen-space ambient occlusion, anti-aliasing, bloom, warm steam particles, and planar lagoon reflections. The 28 facilities and furnishings include baths, steam rooms, changing rooms, cafes, bars, seating, and plants. The art combines imported models with the custom modular architecture; further improvement can come from replacing additional facility models through the same glTF pipeline.
+Choose **Start your own spa** to begin with a lobby and reception, or **Explore this retreat** for a furnished example. Extend connected stone, cedar or garden tiles, then place baths, hot tubs, cold plunges, steam rooms, saunas, showers, bathrooms, all-gender changing rooms, lounges, cafes, bars, seating, plants and garden features. The collection contains 38 furnishings and facilities, with model thumbnails rendered by the actual game engine.
 
-## Website publishing
+Guests arrive at reception, walk around furnishings, choose reachable facilities, use them, and earn income. Their choices respond to quality, freshness, nearby plants, support facilities, distance, crowding and personal preferences. Free building is the default; budget mode adds construction costs, visit income and removal refunds. Select a facility to inspect its use and refresh it. Undo restores recent building changes.
 
-`node tools/site.cjs` builds the public static site in `_site/`, including the browser game, a download page, the complete offline ZIP, example resort, previews, and credits. It verifies the copied files against their source hashes and checks every local script reference. It publishes no repository metadata, credentials, or development tools.
+## Play from a local HTML file
 
-For GitHub Pages, publish the contents of `_site/` to the `gh-pages` branch. In the repository’s **Settings → Pages**, choose **Deploy from a branch**, select **gh-pages** and **/(root)**, and save. The site address is `https://markbobthomas.github.io/spa/`; the download page is `https://markbobthomas.github.io/spa/download.html`.
+Download **Stillwater.zip**, extract it, and open **Stillwater.html** in a modern browser with WebGL 2 and WebAssembly. The HTML embeds Godot’s engine, the game pack, its assets, worker scripts and collection thumbnails. It can run without a server or an internet connection. The large HTML takes a moment to open. The website provides the same game as smaller separate files.
 
-## Play offline
+Your spa saves automatically in browser storage. Menu → Export a backup downloads a JSON save for another device or browser. Local-file storage support varies; keep an exported backup of work you care about. The rebuild uses version-two saves. The previous game and its original saves remain available at [Previous version](https://markbobthomas.github.io/spa/classic/).
 
-For a compressed download, use **`Stillwater.zip`**, extract it, and open the included `Stillwater.html` in your browser. This avoids relying on the chat’s HTML file preview. The archive includes the complete game, a quick-start guide, the example resort, and license credits.
+## Controls
 
-Open **`Stillwater.html`** in a modern browser. This is the complete game in one file, including its engine, models, textures, and HDR lighting. No installation, downloads, or network access are needed.
+- Drag to orbit; vertical movement adjusts the viewing angle. Wheel or +/− zooms from a close view of individual furniture to the whole resort.
+- Right-drag, middle-drag or Shift-drag pans. Q/E turn the camera; Home restores its position.
+- Touch drag orbits; pinch zooms. Tap to place after choosing a furnishing.
+- R rotates a furnishing. C opens or closes roofs; rooms open while building. P enters or leaves photo view.
+- 1–4 selects Explore, Extend, Furnish or Remove. Space pauses guests; Escape returns to exploring.
+- Menu provides time-of-day-independent saving, import/export, free/budget mode, a reference retreat, a new spa, and Balanced/Lush/Simple graphics. The sun button changes morning, golden hour and evening lighting.
 
-Alternatively, open `index.html` while keeping `engine.js`, `model-library.js`, `architecture.js`, `asset-data.js`, and the `vendor/` directory alongside it. Both versions embed model data to avoid local-file fetch restrictions. For development or browser tests, run this from `/workspace/spa`:
+The view is orthographic and freely rotatable. Zoom has a broad finite range; this is not a mathematically infinite camera. Floors support 2,500 tiles and the simulation supports 18 simultaneous guests. Performance depends on device, chosen graphics detail and resort size. WebGL 2 and WebAssembly are required for this native engine build.
 
-```sh
-python3 -m http.server 8000 --bind 0.0.0.0
-```
+## Develop with Godot
 
-The spa begins with a lobby, reception desk, seating, plants, and an empty spa floor. Expand adjacent floor tiles and choose facilities from the collection. Guests enter through reception, navigate connected floors around furniture, use available facilities, and generate income. Quality, greenery, variety, cleanliness, and crowding influence their choices and happiness.
+Open `godot/project.godot` in the **Godot 4.6.3 editor**. The browser version is the complete game: the native scene, camera, placement, pathfinding, saving and visitor simulation are GDScript; its responsive editor interface is an HTML overlay connected through Godot’s JavaScriptBridge. Running the scene directly in the editor provides the 3D world and keyboard/camera controls; the browser export provides the collection and menus.
 
-For a finished reference layout, use Menu → Import spa and choose [examples/island-retreat.json](examples/island-retreat.json). [preview.png](preview.png) shows its exterior; [preview-cutaway.png](preview-cutaway.png) shows its interiors; [preview-detail.png](preview-detail.png) shows close-up furniture, foliage, roof geometry, and wood grain. Import replaces the current layout, so export your work first if you want to keep it.
+Use the existing checkout at `/workspace/spa`; cloud tasks are already isolated and do not require an extra Git worktree. The managed runtime supplies Godot 4.6.3, Blender, Python, Node, Chromium and Playwright. The official, checksum-verified web export templates live in `/workspace/.godot-data/godot/export_templates/4.6.3.stable`.
 
-Free building is enabled initially. Switch to budget mode to spend your balance and earn visit revenue. Removing furnishings refunds 70% in budget mode. Refresh facilities in their inspection panel to restore cleanliness.
-
-## Camera and building
-
-- Drag to orbit; vertical drag changes the viewing angle.
-- Wheel / + / − to zoom. Zoom ranges from 3 to 2,000 pixels per tile, rather than being mathematically infinite.
-- Right-drag / Shift-drag / arrow keys to pan.
-- On touch screens, drag to orbit and pinch to zoom. Furnish opens a collection drawer that closes after choosing an item.
-- R rotates a furnishing before placement.
-- C cycles whole buildings, camera-aware cutaways, and open roofs. Roofs open automatically while painting or furnishing.
-- P opens photo view; P, Escape, or Return to building restores the interface. Camera controls still work in photo view.
-- 1–4 selects explore, add floor, furnish, or remove.
-- Space pauses the simulation; Escape closes menus and returns to explore.
-- The home button restores the starting camera.
-
-Drag with Add floor selected to paint adjacent tiles. Choose Courtyard or Pavilion in the floor palette; painting an existing tile changes its style. Pavilion tiles generate building sections automatically, with open archways between adjoining sections. Facilities must fit on unoccupied floor. Removing floor preserves connectivity. Inspection and removal use 3D picking, while placement targets the floor beneath the cursor. The spa supports 2,500 floor tiles and 28 simultaneous guests.
-
-## Light and detail
-
-Use the sun button, or the menu on small screens, to choose morning, golden hour, or evening. Paper lanterns cast warm local light. Cutaway lowers the walls facing the camera and removes the near roof slope; Whole buildings restores the complete exterior. Open sky removes roofs. All three modes are also available in the menu on small screens, together with Photo view.
-
-The menu offers Balanced, Lush, and Simple detail. Balanced and Lush use a depth-based ambient occlusion pass and multisample anti-aliasing when supported. Lush uses sharper shadows, stronger contact shading, and a higher pixel ratio. Simple disables cast shadows, contact shading, steam emission, bloom, and lagoon reflections and reduces pixel resolution for older devices. The renderer uses shared geometry, instanced facade details, foliage, floor tiles, and posed guests, cached static shadows, and a 30 fps rendering cap. Simulation remains independent of render timing. Performance depends on the browser, graphics device, and spa size.
-
-If WebGL is unavailable, the original Canvas visuals activate automatically and the building game remains playable. If an active graphics context is lost, the game pauses and prompts you to save and refresh.
-
-## Saves
-
-Existing version-one spa saves remain compatible. Autosaving occurs every 25 simulation seconds and after building changes. The menu provides manual saving, JSON export/import, reload, and a confirmed reset. Guests restart their visits after loading, while layouts, cleanliness, visit counts, balance, and camera persist. Light and detail preferences are also remembered locally.
-
-Browser storage for local HTML files varies. Export a backup before moving files or switching browsers. `Stillwater.html` may have a different storage origin from `index.html`; use Export and Import to transfer a saved spa between them.
-
-## Development and verification
-
-Edit `index.html` for gameplay and the interface, `engine.js` for the Babylon scene, camera, glTF integration, materials, lighting, effects, and native catalog thumbnails, `model-library.js` for modular facility geometry, or `architecture.js` for buildings and landscaping. Three.js is used solely as a geometry-authoring helper; Babylon owns the actual WebGL renderer, meshes, PBR materials, shadows, particles, and effects. `graphics.js` and `postprocess.js` are superseded implementations and are not loaded by the game.
-
-Babylon.js and its glTF loader are vendored under Apache 2.0. The small geometry helper is MIT. Asset licenses, authors, source URLs, modifications, and SHA-256 hashes are in `assets/SOURCES.md`, the adjacent license files, and `assets/manifest.json`. The Credits menu also includes attribution. There are no runtime CDN or asset-server dependencies.
-
-To replace an imported model, edit the local GLB and its entry in `tools/assets.cjs`, then run `node tools/assets.cjs`. `engine.js` fits imported models to facility footprints and retains their original glTF materials. `tools/bake-plants.py` is the original Blender source for the plants; optionally rebuild them using `blender --background --python tools/bake-plants.py`. Blender is only needed for asset editing. Rebuild the embedded data after changing assets.
-
-Regenerate the standalone file after editing source:
+Build from the repository root:
 
 ```sh
-node tools/package.cjs
-python3 tools/download.py
+python3 tools/bootstrap-godot.py
+python3 tools/build.py
+python3 -m http.server 8011 --bind 127.0.0.1 --directory _site
 ```
 
-The cloud runtime supplies Node, Python, Chromium, and Playwright. With the local server running, execute these browser checks sequentially:
+The build sets workspace-local XDG directories, imports current resources, exports the single-threaded Godot Web target, packages the standalone HTML and licenses, and verifies archive integrity. It produces `_site/`, `Stillwater.html`, `Stillwater.zip`, and `_site/Stillwater-Godot-project.zip`. No runtime CDN or external asset downloads are used. The bootstrap helper downloads the official 1.2 GB template archive only if templates are absent, checks its pinned SHA-512, and extracts the web templates.
+
+`godot/scripts/spa.gd` owns the game. `godot/assets/catalog.json` describes its collection. `web/shell.html` is the custom Godot HTML export template. `tools/bake-spa.py` is the original Blender source for the bath and architectural kit; optionally regenerate it with `blender --background --python tools/bake-spa.py`, then rebuild. The imported KayKit assets and their original licenses are retained in `godot/assets/kaykit/`. Sources, modifications and distribution hashes are documented alongside them. The original implementation is archived in `legacy/`.
+
+## Verified checks
+
+Run the native integration checks with the same environment paths used by the builder:
 
 ```sh
-node tests/smoke.cjs
-node tests/graphics.cjs
-node tests/retina.cjs
+XDG_DATA_HOME=/workspace/.godot-data XDG_CONFIG_HOME=/workspace/.godot-config XDG_CACHE_HOME=/tmp/stillwater-cache godot --headless --path godot --script scripts/checks.gd
+node tests/browser.cjs
 ```
 
-They exercise pavilion construction, island growth, roof cutaways, photo view, depth shading, building, collision handling, guest use and revenue, save/reload, refreshing and refunds, all detailed models, native glTF imports and foliage, geometric roof tiles, HDR lighting, engine steam particles, camera projection and picking at extreme zoom and on high-DPI displays, light/detail controls, mobile collection controls, transient GPU resource cleanup, offline standalone execution, and the no-WebGL fallback. The managed test browser blocks `file://` navigation, so offline tests load the bundled HTML into a browser context with networking disabled. This validates offline execution without claiming a direct local-file navigation test.
+The native checks exercise placement, collisions, budgeting, guest navigation and completed visits, revenue, save/import validation, removal refunds, undo, and the effect of cleanliness on actual facility choices. Browser checks exercise the exported engine, HTML controls, native mouse picking, mobile and high-DPI sizing, camera ranges, persistent saving, and the standalone HTML with networking disabled. The test browser uses software rendering, so its performance does not represent a hardware-accelerated user browser.
 
-To regenerate the reference layout and all three screenshots with the server running, use `node tools/preview.cjs`. This validates the example through the game’s import checks and runs real guests before capture.
-
-Use the existing checkout: cloud tasks are already isolated, so extra Git worktrees are unnecessary.
+With `_site/` served on port 8011, `node tools/visuals.cjs` regenerates all 38 thumbnails and the three previews from the actual Godot renderer. Set `SPA_URL` to change the test/preview server. Publish the generated `_site/` contents to the repository’s `gh-pages` branch to update the existing website.
